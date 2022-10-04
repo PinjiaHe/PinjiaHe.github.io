@@ -10,6 +10,7 @@ Our group is broadly interested in software engineering, programming languages a
 **Good Advices for Research Students:**<br>
 [How to Read a Paper?](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)<br>
 [Tips on Writing a Research Paper](https://www.pldi21.org/prerecorded_plmw.2.html)<br>
+[You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)<br>
 
 <!-- To get an idea of our recent research activities, please take a look at our [publications](https://dblp.org/pers/hd/h/He:Pinjia) and various projects, such as the [LogPAI project](https://github.com/logpai) and [Machine translation testing project](https://github.com/RobustNLP/TestTranslation). -->
 

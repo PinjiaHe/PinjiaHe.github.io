@@ -23,7 +23,7 @@ Our group is broadly interested in software engineering, programming languages a
 ### PhD Student
 - Boxi Yu
   - Publications: \[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\] 
-- Youliang Yuan
+- [Youliang Yuan](https://youliangyuan.github.io/)
 - Junjielong Xu
 
 ### Research Assistant

@@ -6,7 +6,7 @@ title: "Services"
 ## Program Committees
 - 2024: ICSE
 - 2023: [ESEC/FSE](https://2023.esec-fse.org/committee/fse-2023-research-papers-program-committee), [SANER](https://saner2023.must.edu.mo/programCommittee)
-- 2022: [ISSRE](https://issre2022.github.io/committee_research-PC.html)(**Distinguished Reviewer Award**), [AISTA](http://metwiki.net/MET22/committee.html)
+- 2022: [ISSRE](https://issre2022.github.io/committee_research-PC.html) (**Distinguished Reviewer Award**), [AISTA](http://metwiki.net/MET22/committee.html)
 - 2021: [MET](http://metwiki.net/MET21/committee.html), [DSML](https://dependablesecureml.github.io/2021/committee.html), [AISTA](https://conf.researchr.org/track/aista-2021/ecoop-issta-2021-aista#event-overview)
 - 2019: [ASE Demo](https://2019.ase-conferences.org/track/ase-2019-Demonstrations)
 

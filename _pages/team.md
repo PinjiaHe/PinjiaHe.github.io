@@ -44,7 +44,10 @@ Our group is broadly interested in software engineering, programming languages a
 
 ## Alumni
 
-### Former Research Assistants
+### Undergraduates
+2022: Haotian Xie (Pony.ai)
+
+### Research Assistants
 - Qijing Shen (Summer 2021, next: University of Oxford PhD)
 - Clara Meister (01.2019 -- 02.2020, coadvised by Zhendong Su, next: ETH Zurich PhD)
   - Publications: \[[ICSE21](/files/pdf/research/ICSE21.pdf)\]\[[FSE20](/files/pdf/research/ESECFSE20.pdf)\]\[[ICSE20](/files/pdf/research/ICSE20.pdf)\] 

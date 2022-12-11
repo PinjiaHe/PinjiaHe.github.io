@@ -18,12 +18,12 @@ Our group is broadly interested in software engineering, programming languages a
 
 ## Current
 ### Postdoc
-- Zhijing Li
+- Zhijing Li (<em>Ph.D.</em> Xi'an Jiaotong University)
 
 ### PhD Student
-- Boxi Yu
+- Boxi Yu (<em>B.S. and M.S.</em> Gifted Class, South China University of Technology)
   - Publications: \[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\] 
-- [Youliang Yuan](https://youliangyuan.github.io/)
+- [Youliang Yuan](https://youliangyuan.github.io/) (B.S. Tongji University, M.S. Wuhan University)
 - Junjielong Xu
 
 ### Research Assistant

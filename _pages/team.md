@@ -26,7 +26,7 @@ Our group is broadly interested in software engineering, programming languages a
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
   - Publications: \[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\] 
 - [Youliang Yuan](https://youliangyuan.github.io/)
-  - <em>B.S.</em> Tongji University, M.S. Wuhan University
+  - <em>B.S.</em> Tongji University, <em>M.S</em>. Wuhan University
 - Junjielong Xu
   - <em>B.S.</em> Huazhong University of Science and Technology
   - Awards: 1st Prize in CUMCM, Finalist in MCM

@@ -5,7 +5,7 @@ title: "Team"
 ## Prospective Students
 Our group is broadly interested in software engineering, programming languages and compilers, systems, and natural language processing. Our work is published routinely in the best venues, but more importantly, our work strives for elegance and impact, both conceptual and practical. Our group has open positions for **PhDs, MPhils, postdocs, research assistants, and visitors**. If you are interested in our group, please drop me an email.
 
-**CUHK-SZ Undergrads:** Our team is happy to work with excellent undergraduate students. Under SE/PL/NLP, we have possible research topics ranging from software/system building, empirical investigations, to algorithmic and theoretical explorations. Interested students are encouraged to contact me for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and any other relevant information.
+**CUHK-SZ Undergrads:** (Sorry that we don't have available projects at the moment. Stay tuned.) Our team is happy to work with excellent undergraduate students. Under SE/PL/NLP, we have possible research topics ranging from software/system building, empirical investigations, to algorithmic and theoretical explorations. Interested students are encouraged to contact me for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and any other relevant information.
 
 **Good Advices for Research Students:**<br>
 [How to Read a Paper?](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)<br>
@@ -31,16 +31,38 @@ Our group is broadly interested in software engineering, programming languages a
   - <em>B.S.</em> Huazhong University of Science and Technology
   - Awards: 1st Prize in CUMCM, Finalist in MCM
 
+### Mphil Student
+- Ruiyu Zhou
+
 ### Research Assistant
-- Yusheng Huang
+- Yutong Cheng
+- Aoyang Fang
+- Haowen Yang
+- Jianbo Yu
+- Songhan Zhang
+- Sihang Zhao
+- Zhouruixing Zhu
 
 ### Undergrads
-- Zhijun Huang
-- Jiaqi Li
-- Ruichun Yang
-- Yixing Yang
-- Jiayi Yao: \[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\], UIUC Summer Research
-- Zhiqing Zhong: \[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\]
+- Senior
+  - Yiyan Hu
+  - Zhijun Huang
+  - Ruichun Yang
+  - Zhiqing Zhong: \[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\]
+- Junior
+  - Wuzhou Du
+  - Jiaqi Li
+  - Xiaoyuan Liu
+  - Yiming Xiong
+  - Yixing Yang
+  - Jiayi Yao: \[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\], UIUC Summer Research
+- Sophomore
+  - Fangda Chen
+  - Qingshuo Guo
+  - Qiuyang Mang
+  - Chihao Shen
+  - Haoxuan Wang
+
 
 
 
@@ -60,4 +82,6 @@ Our group is broadly interested in software engineering, programming languages a
 - Shashij Gupta (Summer 2019, coadvised by Zhendong Su, next: Edverhub Founder)
   - Publications: \[[FSE20](/files/pdf/research/ESECFSE20.pdf)\]\[[ICSE20 SRC](/files/pdf/research/ICSE20SRC.pdf)\]
   - Awards: [2nd Prize in ACM Student Research Competition](https://src.acm.org/winners/2021)
+
+<!-- - Yusheng Huang -->
 

@@ -8,9 +8,10 @@ title: "Teaching"
 <!-- ## Current -->
 
 ### Current
-- CSC1001 Intro to CS: Programming Methodology (Fall 2022)
+- CSC4001 Software Engineering (Spring 2023)
 
 ### Past
+- CSC1001 Intro to CS: Programming Methodology (Fall 2022)
 - CSC4001 Software Engineering (Spring 2022)
 - CSC1001 Intro to CS: Programming Methodology (Fall 2021)
 

@@ -3,6 +3,7 @@ permalink: /services/
 title: "Services"
 ---
 
+
 ## Program Committees
 - 2024: ICSE
 - 2023: [ESEC/FSE](https://2023.esec-fse.org/committee/fse-2023-research-papers-program-committee), [SANER](https://saner2023.must.edu.mo/programCommittee)
@@ -16,10 +17,9 @@ title: "Services"
 - 2021: [OOPSLA](https://2021.splashcon.org/track/splash-2021-Artifacts), [ECOOP](https://2021.ecoop.org/track/ecoop-2021-ecoop-artifacts)
 - 2020: [ECOOP](https://2020.ecoop.org/track/ecoop-2020-artifacts)
 
-
 ## Transaction/Journal
-- Distinguished Reviewer Board: ACM Transactions on Software Engineering and Methodology (TOSEM)
-- Reviewer: IEEE Transactions on Software Engineering (TSE)
+- Associate Editor: ACM Transactions on Software Engineering and Methodology (TOSEM), 2023 - Now
+<!-- - Reviewer: IEEE Transactions on Software Engineering (TSE)
 - Reviewer: Empirical Software Engineering (EMSE)
 - Reviewer: ACM Computing Surveys (CSUR)
 - Reviewer: IEEE Transactions on Dependable and Secure Computing (TDSC)
@@ -30,11 +30,11 @@ title: "Services"
 - Reviewer: Information and Software Technology (IST)
 - Reviewer: Computers & Security (COSE)
 - Reviewer: Software Testing, Verification and Reliability (STVR)
-- Reviewer: Journal of Software: Evolution and Process (JSME)
+- Reviewer: Journal of Software: Evolution and Process (JSME) -->
 
 <!-- <br/> -->
 
-## Other Service Activities
+<!-- ## Other Service Activities
 - Co-Reviewer: International Symposium on Software Testing and Analysis (ISSTA 2021)
 - Co-Reviewer: International Conference on Software Engineering (ICSE 2019)
 - Co-Reviewer: Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2019)
@@ -52,7 +52,7 @@ title: "Services"
 - Co-Reviewer: International World Wide Web Conference (WWW 2015)
 - Co-Reviewer: Conference on Neural Information Processing Systems (NeurIPS 2015)
 - Co-Reviewer: International Conference on Web Search and Data Mining (WSDM 2015)
-- Co-Reviewer: International Symposium on Software Reliability Engineering (ISSRE 2016)
+- Co-Reviewer: International Symposium on Software Reliability Engineering (ISSRE 2016) -->
 
 
 

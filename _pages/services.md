@@ -25,7 +25,7 @@ title: "Services"
 - Program Committee -- 6th International Workshop on Metamorphic Testing (co-located with ICSE 2021) 
 - Program Committee -- Dependable and Secure Machine Learning (co-located with DSN 2021) 
 - Program Committee -- Workshop on AI and Software Testing/Analysis (co-located with ISSTA 2021)
-- Artifact Evalaution Committee -- CM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA 2021)
+- Artifact Evalaution Committee -- ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA 2021)
 - Artifact Evalaution Committee -- 35th European Conference on Object-Oriented Programming (ECOOP 2021)
 
 ## 2020

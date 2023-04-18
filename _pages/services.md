@@ -12,6 +12,7 @@ title: "Services"
 - Program Committee -- 30th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2023) (Research Track, ERA Track)
 - Program Committee -- 30th Asia-Pacific Software Engineering Conference (APSEC 2023)
 - Program Committee -- 8th International Workshop on Metamorphic Testing (co-located with ICSE 2023)
+- Program Committee -- 3rd AIOPS Workshop (co-located with ICDM 2023)
 - External Review Committee/Artifact Evalaution Committee -- ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA 2023)
 
 ## 2022

@@ -5,7 +5,7 @@ title: "Team"
 ## Prospective Students
 Our group is broadly interested in software engineering, programming languages and compilers, systems, and natural language processing. Our work is published routinely in the best venues, but more importantly, our work strives for elegance and impact, both conceptual and practical. Our group has open positions for **PhDs, MPhils, postdocs, research assistants, and visitors**. If you are interested in our group, please drop me an email.
 
-**CUHK-SZ Undergrads:** (Sorry that we don't have available projects at the moment. Stay tuned.) Our team is happy to work with excellent undergraduate students. Under SE/PL/NLP, we have possible research topics ranging from software/system building, empirical investigations, to algorithmic and theoretical explorations. Interested students are encouraged to contact me for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and any other relevant information.
+**CUHK-SZ Undergrads:** Our team is happy to work with excellent undergraduate students. Under SE/PL/NLP, we have possible research topics ranging from software/system building, empirical investigations, to algorithmic and theoretical explorations. Interested students are encouraged to contact me for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and any other relevant information.
 
 **Good Advices for Research Students:**<br>
 [How to Read a Paper?](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)<br>
@@ -22,7 +22,7 @@ Our group is broadly interested in software engineering, programming languages a
   - <em>Ph.D.</em> Xi'an Jiaotong University
 
 ### PhD Student
-- Boxi Yu
+- [Boxi Yu](https://boxiyu.github.io/)
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
   - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\]\[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\]\[[ESEC/FSE23](/files/pdf/research/FSE23a.pdf)\] 
 - [Youliang Yuan](https://youliangyuan.github.io/)
@@ -38,7 +38,6 @@ Our group is broadly interested in software engineering, programming languages a
 - Yutong Cheng
 - Aoyang Fang
 - Haowen Yang
-- Jianbo Yu
 - Songhan Zhang
 - Sihang Zhao
 - Zhouruixing Zhu
@@ -55,8 +54,8 @@ Fangda Chen, Wuzhou, Du, Qingshuo Guo, Wenhan Hu (\[[ESEC/FSE23](/files/pdf/rese
 ## Alumni
 
 ### Undergraduates
-2023: Yiyan Hu, Zhijun Huang, Yifan Wu, Ruichun Yang
-2022: Haotian Xie (Pony.ai)
+- 2023: Yiyan Hu, Zhijun Huang, Yifan Wu, Ruichun Yang
+- 2022: Haotian Xie (Pony.ai)
 
 ### Research Assistants
 - Jianbo Yu (next: Southeast University PhD)

@@ -42,6 +42,9 @@ Our group is broadly interested in software engineering, programming languages a
 - Sihang Zhao
 - Zhouruixing Zhu
 
+### Visitors
+- Dinghua Wang
+
 ### Undergrads
 I am grateful that I have the privilege to advise the following brilliant students:
 

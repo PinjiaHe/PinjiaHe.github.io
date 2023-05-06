@@ -24,7 +24,7 @@ Our group is broadly interested in software engineering, programming languages a
 ### PhD Student
 - Boxi Yu
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
-  - Publications: \[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\] 
+  - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\]\[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\]\[[ESEC/FSE23](/files/pdf/research/FSE23a.pdf)\] 
 - [Youliang Yuan](https://youliangyuan.github.io/)
   - <em>B.S.</em> Tongji University, <em>M.S</em>. Wuhan University
 - Junjielong Xu
@@ -44,38 +44,23 @@ Our group is broadly interested in software engineering, programming languages a
 - Zhouruixing Zhu
 
 ### Undergrads
-- Senior
-  - Yiyan Hu
-  - Zhijun Huang
-  - Ruichun Yang
-  - Zhiqing Zhong: \[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\]
-- Junior
-  - Wuzhou Du
-  - Jiaqi Li
-  - Xiaoyuan Liu
-  - Yiming Xiong
-  - Yixing Yang
-  - Jiayi Yao: \[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\], UIUC Summer Research
-- Sophomore
-  - Fangda Chen
-  - Qingshuo Guo
-  - Qiuyang Mang
-  - Chihao Shen
-  - Haoxuan Wang
+I am grateful that I have the privilege to advise the following brilliant students:
 
+Fangda Chen, Wuzhou, Du, Qingshuo Guo, Wenhan Hu (\[[ESEC/FSE23](/files/pdf/research/FSE23a.pdf)\]), Yiyan Hu (\[[ESEC/FSE23](/files/pdf/research/FSE23a.pdf)\]), Zhijun Huang, Jiaqi Li (\[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\]), Lu Li, Xiaoyuan Liu, Qiuyang Mang (\[[ESEC/FSE23](/files/pdf/research/FSE23a.pdf)\]), Chihao Shen, Haoxuan Wang, Yiming Xiong, Ruichun Yang, Yixing Yang: \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\], Jiayi Yao (\[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\], UIUC Summer Research), Zhiqing Zhong (\[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\]\[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\])
 
-
-
+*Note: If I missed any of you accidently, please do email me (and forgive me). Please also let me know your latest status.*
 
 <!-- <br/> -->
 
 ## Alumni
 
 ### Undergraduates
+2023: Yiyan Hu, Zhijun Huang, Yifan Wu, Ruichun Yang
 2022: Haotian Xie (Pony.ai)
 
 ### Research Assistants
-- Qijing Shen (Summer 2021, next: University of Oxford PhD)
+- Jianbo Yu (next: Southeast University PhD)
+- Qijing Shen (next: University of Oxford PhD)
 - Clara Meister (01.2019 -- 02.2020, coadvised by Zhendong Su, next: ETH Zurich PhD)
   - Publications: \[[ICSE21](/files/pdf/research/ICSE21.pdf)\]\[[FSE20](/files/pdf/research/ESECFSE20.pdf)\]\[[ICSE20](/files/pdf/research/ICSE20.pdf)\] 
 - Rohan Parag Shah (Winter 2020, coadvised by Zhendong Su, next: CMU Master)

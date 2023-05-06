@@ -24,7 +24,7 @@ Our group is broadly interested in software engineering, programming languages a
 ### PhD Student
 - [Boxi Yu](https://boxiyu.github.io/)
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
-  - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\]\[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\]\[[ESEC/FSE23](/files/pdf/research/FSE23a.pdf)\] 
+  - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\] \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\] \[[ESEC/FSE23](/files/pdf/research/FSE23a.pdf)\] 
 - [Youliang Yuan](https://youliangyuan.github.io/)
   - <em>B.S.</em> Tongji University, <em>M.S</em>. Wuhan University
 - Junjielong Xu
@@ -48,7 +48,7 @@ Our group is broadly interested in software engineering, programming languages a
 ### Undergrads
 I am grateful that I have the privilege to advise the following brilliant students:
 
-Fangda Chen, Wuzhou, Du, Qingshuo Guo, Wenhan Hu (\[[ESEC/FSE23](/files/pdf/research/FSE23a.pdf)\]), Yiyan Hu (\[[ESEC/FSE23](/files/pdf/research/FSE23a.pdf)\]), Zhijun Huang, Jiaqi Li (\[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\]), Lu Li, Zhengda Li, Xiaoyuan Liu, Qiuyang Mang (\[[ESEC/FSE23](/files/pdf/research/FSE23a.pdf)\]), Chihao Shen, Lei Tian, Haoxuan Wang, Yiming Xiong, Ruichun Yang, Yixing Yang: \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\], Jiayi Yao (\[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\], UIUC Summer Research), Zhiqing Zhong (\[[ISSTA22](/files/pdf/research/ISSTAa.pdf)\]\[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\])
+Fangda Chen, Wuzhou, Du, Qingshuo Guo, Wenhan Hu ([ESEC/FSE23](/files/pdf/research/FSE23a.pdf)), Yiyan Hu ([ESEC/FSE23](/files/pdf/research/FSE23a.pdf)), Zhijun Huang, Jiaqi Li ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Lu Li, Zhengda Li, Xiaoyuan Liu, Qiuyang Mang ([ESEC/FSE23](/files/pdf/research/FSE23a.pdf)), Chihao Shen, Lei Tian, Haoxuan Wang, Yiming Xiong, Ruichun Yang, Yixing Yang ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Jiayi Yao ([ISSTA22](/files/pdf/research/ISSTAa.pdf), UIUC Summer Research), Zhiqing Zhong ([ISSTA22](/files/pdf/research/ISSTAa.pdf), [ISSTA23](/files/pdf/research/ISSTA23b.pdf))
 
 *Note: If I missed any of you accidently, please do email me (and forgive me). Please also let me know your latest status.*
 

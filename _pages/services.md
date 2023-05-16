@@ -10,6 +10,7 @@ title: "Services"
 ## 2023
 - Program Committee -- 32nd ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023)
 - Program Committee -- 30th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2023) (Research Track, ERA Track)
+- Program Committee -- 34th IEEE International Symposium on Software Reliability Engineering (ISSRE 2023)
 - Program Committee -- 30th Asia-Pacific Software Engineering Conference (APSEC 2023)
 - Program Committee -- 8th International Workshop on Metamorphic Testing (co-located with ICSE 2023)
 - Program Committee -- 3rd AIOPS Workshop (co-located with ICDM 2023)

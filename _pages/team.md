@@ -48,7 +48,7 @@ Our group is broadly interested in software engineering, programming languages a
 ### Undergrads
 I am grateful that I have the privilege to advise the following brilliant students:
 
-Fangda Chen, Wuzhou, Du, Qingshuo Guo, Wenhan Hu ([ESEC/FSE23](/files/pdf/research/FSE23b.pdf)), Yiyan Hu ([ESEC/FSE23](/files/pdf/research/FSE23b.pdf)), Zhijun Huang, Jiaqi Li ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Lu Li, Zhengda Li, Xiaoyuan Liu, Qiuyang Mang ([ESEC/FSE23](/files/pdf/research/FSE23b.pdf)), Chihao Shen, Lei Tian, Haoxuan Wang, Yiming Xiong, Ruichun Yang, Yixing Yang ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Jiayi Yao ([ISSTA22](/files/pdf/research/ISSTAa.pdf), UIUC Summer Research), Zhiqing Zhong ([ISSTA22](/files/pdf/research/ISSTAa.pdf), [ISSTA23](/files/pdf/research/ISSTA23b.pdf))
+Fangda Chen, Wuzhou Du, Qingshuo Guo, Wenhan Hu ([ESEC/FSE23](/files/pdf/research/FSE23b.pdf)), Jiaqi Li ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Lu Li, Zhengda Li, Xiaoyuan Liu (UIUC Summer Research), Qiuyang Mang ([ESEC/FSE23](/files/pdf/research/FSE23b.pdf)), Chihao Shen, Lei Tian, Haoxuan Wang, Yiming Xiong, Yixing Yang ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Jiayi Yao ([ISSTA22](/files/pdf/research/ISSTAa.pdf), UIUC Summer Research), Zhiqing Zhong ([ISSTA22](/files/pdf/research/ISSTAa.pdf), [ISSTA23](/files/pdf/research/ISSTA23b.pdf))
 
 *Note: If I missed any of you accidently, please do email me (and forgive me). Please also let me know your latest status.*
 
@@ -57,7 +57,7 @@ Fangda Chen, Wuzhou, Du, Qingshuo Guo, Wenhan Hu ([ESEC/FSE23](/files/pdf/resear
 ## Alumni
 
 ### Undergraduates
-- 2023: Yiyan Hu, Zhijun Huang, Yifan Wu, Ruichun Yang
+- 2023: Yiyan Hu ([ESEC/FSE23](/files/pdf/research/FSE23b.pdf), UCSD Master), Zhijun Huang (Cornell Master), Yifan Wu (Rice Master), Ruichun Yang (UCSD Master)
 - 2022: Haotian Xie (Pony.ai)
 
 ### Research Assistants

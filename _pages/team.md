@@ -22,15 +22,15 @@ Our group is broadly interested in software engineering, programming languages a
   - <em>Ph.D.</em> Xi'an Jiaotong University
 
 ### PhD Student
-- [Boxi Yu](https://boxiyu.github.io/) (2021.9-Present)
+- [Boxi Yu](https://boxiyu.github.io/), 2021.9-Present
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
   - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\] \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\] \[[ESEC/FSE23](/files/pdf/research/FSE23b.pdf)\] 
-- [Youliang Yuan](https://youliangyuan.github.io/) (2022.9-Present)
+- [Youliang Yuan](https://youliangyuan.github.io/), 2022.9-Present
   - <em>B.S.</em> Tongji University, <em>M.S</em>. Wuhan University
-- Junjielong Xu (2022.9-Present)
+- Junjielong Xu, 2022.9-Present
   - <em>B.S.</em> Huazhong University of Science and Technology
   - Awards: 1st Prize in CUMCM, Finalist in MCM
-- Zhiqing Zhong (2023.9-Present)
+- Zhiqing Zhong, 2023.9-Present
   - <em>B.S.</em> South China University of Technology
   - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\] \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\]
 

@@ -6,6 +6,7 @@ title: "Services"
 
 ## 2024
 - Program Committee -- 46th International Conference on Software Engineering (ICSE 2024)
+- Program Committee -- 33rd ACM International Conference on the Foundations of Software Engineering (FSE 2024)
 
 ## 2023
 - Program Committee -- 32nd ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023)

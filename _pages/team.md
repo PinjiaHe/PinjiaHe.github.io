@@ -36,7 +36,7 @@ Our group is broadly interested in software engineering, programming languages a
   - <em>B.S.</em> South China University of Technology
   - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\] \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\]
 
-### Mphil and MSc Student
+### MPhil and MSc Student
 - Boyin Tan
 - Ruiyu Zhou
 

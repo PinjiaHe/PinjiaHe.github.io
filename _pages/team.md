@@ -38,11 +38,13 @@ Our group is broadly interested in software engineering, programming languages a
 
 ### MPhil and MSc Student
 - Boyin Tan
-- Ruiyu Zhou
+- Ruiyu Zhou: [ASE23 InchTrack]
 
 ### Research Assistant
 - Yutong Cheng: \[[ESEC/FSE23](https://pinjiahe.github.io/)\]
-- Aoyang Fang
+- Aoyang Fang: [ASE23 InchTrack]
+- Qingshuo Guo
+- [Qiuyang Mang](https://joyemang33.github.io/): \[[ESEC/FSE23](/files/pdf/research/FSE23b.pdf)\]
 - Haowen Yang
 - Siyu Yu: \[TSC23\] \[ESEC/FSE23\] 
 - Songhan Zhang
@@ -56,7 +58,7 @@ Our group is broadly interested in software engineering, programming languages a
 ### Undergrads
 I am grateful that I have the privilege to advise the following brilliant students:
 
-Fangda Chen, Wuzhou Du, Qingshuo Guo, Wenhan Hu ([ESEC/FSE23](/files/pdf/research/FSE23b.pdf)), Jiaqi Li ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Lu Li, Zhengda Li, Xiaoyuan Liu (UIUC Summer Research), Qiuyang Mang ([ESEC/FSE23](/files/pdf/research/FSE23b.pdf)), Chihao Shen, Lei Tian, Haoxuan Wang, Yiming Xiong, Yixing Yang ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Jiayi Yao ([ISSTA22](/files/pdf/research/ISSTAa.pdf), UIUC Summer Research)
+Fangda Chen, Wuzhou Du, Wenhan Hu ([ESEC/FSE23](/files/pdf/research/FSE23b.pdf)), Jiaqi Li ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Lu Li, Zhengda Li, Xiaoyuan Liu (UIUC Summer Research), Chihao Shen, Lei Tian, Haoxuan Wang, Yiming Xiong, Yixing Yang ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Jiayi Yao ([ISSTA22](/files/pdf/research/ISSTAa.pdf), UIUC Summer Research)
 
 *Note: If I missed any of you accidently, please do email me (and forgive me). Please also let me know your latest status.*
 

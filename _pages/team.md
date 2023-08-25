@@ -25,16 +25,16 @@ Our group is broadly interested in software engineering, programming languages a
 ### PhD Student
 - [Boxi Yu](https://boxiyu.github.io/), 2021.9-Present
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
-  - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\] \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\] \[[ESEC/FSE23 NER](https://pinjiahe.github.io/)\] 
+  - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\] \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\] \[[ESEC/FSE23 NER](https://pinjiahe.github.io/)\] \[[ICSE24 Log Anomaly](https://pinjiahe.github.io/)\] 
 - [Youliang Yuan](https://youliangyuan.github.io/), 2022.9-Present
   - <em>B.S.</em> Tongji University, <em>M.S</em>. Wuhan University
 - [Junjielong Xu](https://siyuexi.github.io/), 2022.9-Present
   - <em>B.S.</em> Huazhong University of Science and Technology
   - Awards: 1st Prize in CUMCM, Finalist in MCM
-  - Publications: \[[ESEC/FSE23 Hybrid Log](https://pinjiahe.github.io/)\]
+  - Publications: \[[ESEC/FSE23 Hybrid Log](https://pinjiahe.github.io/)\] \[[ICSE24 UniLog](https://pinjiahe.github.io/)\]
 - Zhiqing Zhong, 2023.9-Present
   - <em>B.S.</em> South China University of Technology
-  - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\] \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\]
+  - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\] \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\] \[[ICSE24 Log Anomaly](https://pinjiahe.github.io/)\]
 
 ### MPhil and MSc Student
 - Boyin Tan
@@ -58,7 +58,7 @@ Our group is broadly interested in software engineering, programming languages a
 ### Undergrads
 I am grateful that I have the privilege to advise the following brilliant students:
 
-Fangda Chen, Wuzhou Du, Wenhan Hu ([ESEC/FSE23 NER](/files/pdf/research/FSE23b.pdf)), Jiaqi Li ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Lu Li, Zhengda Li, Xiaoyuan Liu (UIUC Summer Research), Chihao Shen, Lei Tian, Haoxuan Wang, Yiming Xiong, Yixing Yang ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Jiayi Yao ([ISSTA22](/files/pdf/research/ISSTAa.pdf), UIUC Summer Research)
+Fangda Chen, Wuzhou Du, Wenhan Hu ([ESEC/FSE23 NER](/files/pdf/research/FSE23b.pdf)), Jiaqi Li ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Lu Li, Zhengda Li, Xiaoyuan Liu (UIUC Summer Research), Chihao Shen, Lei Tian, Haoxuan Wang, Yiming Xiong, Yixing Yang ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Jiayi Yao ([ISSTA22](/files/pdf/research/ISSTAa.pdf) [ICSE24 Log Anomaly](https://pinjiahe.github.io/), UIUC Summer Research)
 
 *Note: If I missed any of you accidently, please do email me (and forgive me). Please also let me know your latest status.*
 
@@ -68,7 +68,7 @@ Fangda Chen, Wuzhou Du, Wenhan Hu ([ESEC/FSE23 NER](/files/pdf/research/FSE23b.p
 
 ### Undergraduates
 - 2023: Yiyan Hu ([ESEC/FSE23 NER](/files/pdf/research/FSE23b.pdf), UCSD Master), Zhijun Huang (Cornell Master), Yifan Wu (Rice Master), Ruichun Yang (UCSD Master)
-- 2022: Haotian Xie (Pony.ai)
+- 2022: Haotian Xie ([ICSE24 Log Anomaly](https://pinjiahe.github.io/), Pony.ai)
 
 ### Research Assistants
 - Zhiqing Zhong (next: CUHK-SZ PhD)

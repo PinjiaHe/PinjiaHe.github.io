@@ -17,7 +17,7 @@ Our group is broadly interested in software engineering, programming languages a
 <!-- <br/> -->
 
 ## Current
-*Only first-author papers are listed for graduate students*
+(Only *first-author* papers are listed for graduate students)
 
 ### Postdoc
 - Zhijing Li

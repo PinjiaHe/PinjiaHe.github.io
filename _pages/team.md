@@ -17,39 +17,40 @@ Our group is broadly interested in software engineering, programming languages a
 <!-- <br/> -->
 
 ## Current
+*Only first-author papers are listed for graduate students*
+
 ### Postdoc
 - Zhijing Li
   - <em>Ph.D.</em> Xi'an Jiaotong University
-  - Publications: \[[ESEC/FSE23 Hybrid Log](https://pinjiahe.github.io/)\] \[ESEC/FSE23 New Log Types\] \[TRel23\]
+  - Publications: TRel'23
 
 ### PhD Student
 - [Boxi Yu](https://boxiyu.github.io/), 2021.9-Present
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
-  - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\] \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\] \[[ESEC/FSE23 NER](https://pinjiahe.github.io/)\] \[[ICSE24 Log Anomaly](https://pinjiahe.github.io/)\] 
+  - Publications: ISSTA'22, ISSTA'23, ESEC/FSE'23, ICSE'24
 - [Youliang Yuan](https://youliangyuan.github.io/), 2022.9-Present
   - <em>B.S.</em> Tongji University, <em>M.S</em>. Wuhan University
 - [Junjielong Xu](https://siyuexi.github.io/), 2022.9-Present
   - <em>B.S.</em> Huazhong University of Science and Technology
   - Awards: 1st Prize in CUMCM, Finalist in MCM
-  - Publications: \[[ESEC/FSE23 Hybrid Log](https://pinjiahe.github.io/)\] \[[ICSE24 UniLog](https://pinjiahe.github.io/)\]
+  - Publications: ESEC/FSE'23, ICSE'24
 - Zhiqing Zhong, 2023.9-Present
   - <em>B.S.</em> South China University of Technology
-  - Publications: \[[ISSTA22](/files/pdf/research/ISSTA22a.pdf)\] \[[ISSTA23](/files/pdf/research/ISSTA23b.pdf)\] \[[ICSE24 Log Anomaly](https://pinjiahe.github.io/)\]
 
 ### MPhil and MSc Student
 - Boyin Tan
-- Ruiyu Zhou: [ASE23 InchTrack]
+- Ruiyu Zhou
 
 ### Research Assistant
-- Yutong Cheng: \[[ESEC/FSE23 Hybrid Log](https://pinjiahe.github.io/)\]
-- Aoyang Fang: [ASE23 InchTrack]
+- Yutong Cheng
+- Aoyang Fang: ASE'23 InchTrack
 - Qingshuo Guo
-- [Qiuyang Mang](https://joyemang33.github.io/): \[[ESEC/FSE23 NER](/files/pdf/research/FSE23b.pdf)\]
+- [Qiuyang Mang](https://joyemang33.github.io/): ESEC/FSE'23
 - Haowen Yang
-- Siyu Yu: \[TSC23\] \[ESEC/FSE23 New Log Types\] 
+- Siyu Yu: TSC'23, ESEC/FSE'23 
 - Songhan Zhang
 - Sihang Zhao
-- Zhouruixing Zhu: \[[ESEC/FSE23 Hybrid Log](https://pinjiahe.github.io/)\]
+- Zhouruixing Zhu
 
 ### Visitors
 - Ying Fu
@@ -58,9 +59,9 @@ Our group is broadly interested in software engineering, programming languages a
 ### Undergrads
 I am grateful that I have the privilege to advise the following brilliant students:
 
-Fangda Chen, Wuzhou Du, Wenhan Hu ([ESEC/FSE23 NER](/files/pdf/research/FSE23b.pdf)), Jiaqi Li ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Lu Li, Zhengda Li, Xiaoyuan Liu (UIUC Summer Research), Chihao Shen, Lei Tian, Haoxuan Wang, Yiming Xiong, Yixing Yang ([ISSTA23](/files/pdf/research/ISSTA23b.pdf)), Jiayi Yao ([ISSTA22](/files/pdf/research/ISSTAa.pdf) [ICSE24 Log Anomaly](https://pinjiahe.github.io/), UIUC Summer Research)
+Fangda Chen, Wuzhou Du, Wenhan Hu (ESEC/FSE'23), Jiaqi Li (ISSTA'23), Lu Li, Zhengda Li, Xiaoyuan Liu (UIUC Summer Research), Chihao Shen, Lei Tian, Haoxuan Wang, Yiming Xiong, Yixing Yang (ISSTA'23), Jiayi Yao (ISSTA'22, ICSE'24, UIUC Summer Research)
 
-*Note: If I missed any of you accidently, please do email me (and forgive me). Please also let me know your latest status.*
+*Note: If I missed any of you accidentally, please do email me (and forgive me). Please also let me know your latest status.*
 
 <!-- <br/> -->
 

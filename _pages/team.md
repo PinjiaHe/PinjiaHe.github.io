@@ -33,13 +33,14 @@ Our group is broadly interested in software engineering, programming languages a
 - [Junjielong Xu](https://siyuexi.github.io/), 2022.9-Present
   - <em>B.S.</em> Huazhong University of Science and Technology
   - Awards: 1st Prize in CUMCM, Finalist in MCM
-  - Publications: ESEC/FSE23, ICSE24
+  - Publications: ESEC/FSE23, ICSE24(x2)
 - Zhiqing Zhong, 2023.9-Present
   - <em>B.S.</em> South China University of Technology
 
 ### MPhil and MSc Student
 - Boyin Tan
 - Ruiyu Zhou
+- Zhouruixing Zhu
 
 ### Research Assistant
 - Yutong Cheng
@@ -50,7 +51,6 @@ Our group is broadly interested in software engineering, programming languages a
 - Siyu Yu: TSC23, ESEC/FSE23 
 - Songhan Zhang
 - Sihang Zhao
-- Zhouruixing Zhu
 
 ### Visitors
 - Ying Fu

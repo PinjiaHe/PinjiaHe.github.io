@@ -5,7 +5,7 @@ title: "Team"
 ## Prospective Students
 Our group is broadly interested in software engineering, natural language processing, systems, programming languages and compilers. Our work is published routinely in the best venues, but more importantly, our work strives for elegance and impact, both conceptual and practical. Our group has open positions for **PhDs, MPhils, postdocs, research assistants, and visitors**. If you are interested in our group, please drop me an email.
 
-Our recent interests and the related papers:
+Our recent topics and the related papers:
 1. AIOps and DevOps: [UniLog: Automatic Logging via LLM and In-Context Learning](https://pinjiahe.github.io/)
 2. LLM/AI robustness: [GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher](https://arxiv.org/abs/2308.06463)
 3. Testing: [Retromorphic Testing: A New Approach to the Test Oracle Problem](https://arxiv.org/abs/2310.06433)

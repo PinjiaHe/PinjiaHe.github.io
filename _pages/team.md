@@ -3,9 +3,9 @@ permalink: /team/
 title: "Team"
 ---
 ## Prospective Students
-Our group is broadly interested in software engineering, programming languages and compilers, systems, and natural language processing. Our work is published routinely in the best venues, but more importantly, our work strives for elegance and impact, both conceptual and practical. Our group has open positions for **PhDs, MPhils, postdocs, research assistants, and visitors**. If you are interested in our group, please drop me an email.
+Our group is broadly interested in software engineering, natural language processing, systems, programming languages and compilers. Our work is published routinely in the best venues, but more importantly, our work strives for elegance and impact, both conceptual and practical. Our group has open positions for **PhDs, MPhils, postdocs, research assistants, and visitors**. If you are interested in our group, please drop me an email.
 
-**CUHK-SZ Undergrads:** Our team is happy to work with excellent undergraduate students. Under SE/PL/NLP, we have possible research topics ranging from software/system building, empirical investigations, to algorithmic and theoretical explorations. Interested students are encouraged to contact me for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and any other relevant information.
+**CUHK-SZ Undergrads:** Our team is happy to work with excellent undergraduate students. Under SE/NLP/System/PL, we have possible research topics ranging from software/system building, empirical investigations, to algorithmic and theoretical explorations. Interested students are encouraged to contact me for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and any other relevant information.
 
 **Good Advices for Research Students:**<br>
 [How to Read a Paper?](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)<br>
@@ -19,10 +19,7 @@ Our group is broadly interested in software engineering, programming languages a
 ## Current
 (Only *first-author* papers are listed for graduate students)
 
-### Postdoc
-- Zhijing Li
-  - <em>Ph.D.</em> Xi'an Jiaotong University
-  - Publications: TRel23
+<!-- ### Postdoc -->
 
 ### PhD Student
 - [Boxi Yu](https://boxiyu.github.io/), 2021.9-Present
@@ -44,9 +41,9 @@ Our group is broadly interested in software engineering, programming languages a
 
 ### Research Assistant
 - Yutong Cheng
-- Aoyang Fang: ASE23 InchTrack
-- Qingshuo Guo
-- [Qiuyang Mang](https://joyemang33.github.io/): ESEC/FSE23
+- Aoyang Fang: ASE23 InchTrack, ICSE24
+- Qingshuo Guo: NUS RA
+- [Qiuyang Mang](https://joyemang33.github.io/): ESEC/FSE23, ICSE24, NUS RA
 - Haowen Yang
 - Siyu Yu: TSC23, ESEC/FSE23 
 - Songhan Zhang
@@ -54,7 +51,7 @@ Our group is broadly interested in software engineering, programming languages a
 
 ### Visitors
 - Ying Fu
-- Dinghua Wang
+- Dinghua Wang: ICSE24
 
 ### Undergrads
 I am grateful that I have the privilege to advise the following brilliant students:
@@ -67,12 +64,15 @@ Fangda Chen, Wuzhou Du, Wenhan Hu (ESEC/FSE23), Jiaqi Li (ISSTA23), Lu Li, Zheng
 
 ## Alumni
 
+- Zhijing Li (Postdoc, 2021-2023, next: Researcher, Shenzhen University)
+
 ### Undergraduates
 - 2023: Yiyan Hu (ESEC/FSE23, UCSD Master), Zhijun Huang (Cornell Master), Yifan Wu (Rice Master), Ruichun Yang (UCSD Master)
 - 2022: Haotian Xie (ICSE24, Pony.ai)
 
 ### Research Assistants
 - Zhiqing Zhong (next: CUHK-SZ PhD)
+- Yusheng Huang
 - Jianbo Yu (next: Southeast University PhD)
 - Qijing Shen (next: University of Oxford PhD)
 - Clara Meister (01.2019 -- 02.2020, coadvised by Zhendong Su, next: ETH Zurich PhD)
@@ -82,5 +82,4 @@ Fangda Chen, Wuzhou Du, Wenhan Hu (ESEC/FSE23), Jiaqi Li (ISSTA23), Lu Li, Zheng
   - Publications: FSE20, ICSE20 SRC
   - Awards: [2nd Prize in ACM Student Research Competition](https://src.acm.org/winners/2021)
 
-<!-- - Yusheng Huang -->
 

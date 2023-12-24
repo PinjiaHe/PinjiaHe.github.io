@@ -5,6 +5,11 @@ title: "Team"
 ## Prospective Students
 Our group is broadly interested in software engineering, natural language processing, systems, programming languages and compilers. Our work is published routinely in the best venues, but more importantly, our work strives for elegance and impact, both conceptual and practical. Our group has open positions for **PhDs, MPhils, postdocs, research assistants, and visitors**. If you are interested in our group, please drop me an email.
 
+Our recent interests and the related papers:
+1. AIOps and DevOps: [UniLog: Automatic Logging via LLM and In-Context Learning](https://pinjiahe.github.io/)
+2. LLM/AI robustness: [GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher](https://arxiv.org/abs/2308.06463)
+3. Testing: [Retromorphic Testing: A New Approach to the Test Oracle Problem](https://arxiv.org/abs/2310.06433)
+
 **CUHK-SZ Undergrads:** Our team is happy to work with excellent undergraduate students. Under SE/NLP/System/PL, we have possible research topics ranging from software/system building, empirical investigations, to algorithmic and theoretical explorations. Interested students are encouraged to contact me for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and any other relevant information.
 
 **Good Advices for Research Students:**<br>

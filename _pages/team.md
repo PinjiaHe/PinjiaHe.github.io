@@ -46,7 +46,6 @@ Our recent topics and the related papers:
 - Zhouruixing Zhu
 
 ### Research Assistant
-- Yutong Cheng
 - Aoyang Fang: ASE23 InchTrack, ICSE24
 - Qingshuo Guo: NUS RA
 - [Qiuyang Mang](https://joyemang33.github.io/): ESEC/FSE23, ICSE24, NUS RA

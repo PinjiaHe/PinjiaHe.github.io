@@ -3,14 +3,14 @@ permalink: /team/
 title: "Team"
 ---
 ## Prospective Students
-Our group is broadly interested in software engineering, natural language processing, systems, programming languages and compilers. Our work is published routinely in the best venues, but more importantly, our work strives for elegance and impact, both conceptual and practical. Our group has open positions for **PhDs, MPhils, postdocs, research assistants, and visitors**. If you are interested in our group, please drop me an email.
+Our work is published routinely in the best venues, but more importantly, our work strives for elegance and impact, both conceptual and practical. Our group has open positions for **PhDs, MPhils, postdocs, research assistants, and visitors**. If you are interested in our group, please drop me an email.
 
 Our recent topics and the related papers:
-1. AIOps and DevOps: [UniLog: Automatic Logging via LLM and In-Context Learning](https://pinjiahe.github.io/)
-2. LLM/AI robustness: [GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher](https://arxiv.org/abs/2308.06463)
-3. Testing: [Retromorphic Testing: A New Approach to the Test Oracle Problem](https://arxiv.org/abs/2310.06433)
+1. AI for SE: [LLM for code](https://arxiv.org/abs/2404.08877), [AIOps](https://dl.acm.org/doi/abs/10.1145/3597503.3623326)
+2. SE for AI: [LLM safety](https://arxiv.org/abs/2308.06463)
+3. Software testing: [graph database](https://dl.acm.org/doi/abs/10.1145/3597503.3639200), [retromorphic testing](https://arxiv.org/abs/2310.06433)
 
-**CUHK-SZ Undergrads:** Our team is happy to work with excellent undergraduate students. Under SE/NLP/System/PL, we have possible research topics ranging from software/system building, empirical investigations, to algorithmic and theoretical explorations. Interested students are encouraged to contact me for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and any other relevant information.
+**CUHK-SZ Undergrads:** Our team is happy to work with excellent undergraduate students. Interested students are encouraged to contact me for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and any other relevant information.
 
 **Good Advices for Research Students:**<br>
 [How to Read a Paper?](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)<br>
@@ -32,13 +32,14 @@ Our recent topics and the related papers:
   - Publications: ISSTA22, ISSTA23, ESEC/FSE23, ICSE24
 - [Youliang Yuan](https://youliangyuan.github.io/), 2022.9-Present
   - <em>B.S.</em> Tongji University, <em>M.S</em>. Wuhan University
-  - Publications: ICLR24
+  - Publications: ICLR24, COLING24 (Oral)
 - [Junjielong Xu](https://siyuexi.github.io/), 2022.9-Present
   - <em>B.S.</em> Huazhong University of Science and Technology
   - Awards: 1st Prize in CUMCM, Finalist in MCM
   - Publications: ESEC/FSE23, ICSE24(x2)
 - Zhiqing Zhong, 2023.9-Present
   - <em>B.S.</em> South China University of Technology
+  - Publications: ICSE25
 
 ### MPhil and MSc Student
 - Boyin Tan

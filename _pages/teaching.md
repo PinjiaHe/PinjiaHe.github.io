@@ -5,12 +5,15 @@ title: "Teaching"
 
 ## @CUHK-SZ
 
-<!-- ## Current -->
 
 ### Current
-- CSC1001 Intro to CS: Programming Methodology (Fall 2023)
+- CSC4001 Software Engineering (Spring 2025)
+- CSC6041 Software Engineering (Spring 2025)
 
 ### Past
+- CSC4001 Software Engineering (Spring 2024)
+- CSC6041 Software Engineering (Spring 2024)
+- CSC1001 Intro to CS: Programming Methodology (Fall 2023)
 - CSC4001 Software Engineering (Spring 2023)
 - CSC1001 Intro to CS: Programming Methodology (Fall 2022)
 - CSC4001 Software Engineering (Spring 2022)

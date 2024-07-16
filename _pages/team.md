@@ -31,7 +31,7 @@ Our recent topics and the related papers:
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
   - Publications: ISSTA22, ISSTA23, ESEC/FSE23, ICSE24
 - [Youliang Yuan](https://youliangyuan.github.io/), 2022.9-Present
-  - <em>B.S.</em> Tongji University, <em>M.S</em>. Wuhan University
+  - <em>B.S.</em> Tongji University, <em>M.S.</em> Wuhan University
   - Publications: ICLR24, COLING24 (Oral)
 - [Junjielong Xu](https://siyuexi.github.io/), 2022.9-Present
   - <em>B.S.</em> Huazhong University of Science and Technology

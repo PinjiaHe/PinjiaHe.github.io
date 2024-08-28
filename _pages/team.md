@@ -93,7 +93,7 @@ I am grateful that I have the privilege to advise brilliant undergraduate studen
 ### Research Assistants
 - Siyu Yu (next: PhD, Peking University)
 - Zhiqing Zhong (next: PhD, CUHK-Shenzhen)
-- Yusheng Huang
+- Yusheng Huang (next: Algorithm Engineer, Kuaishou)
 - Jianbo Yu (next: PhD, Southeast University)
 - Qijing Shen (next: PhD, University of Oxford)
 - Clara Meister (01.2019 -- 02.2020, co-advised by Zhendong Su, next: PhD, ETH Zurich)

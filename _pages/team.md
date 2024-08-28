@@ -40,15 +40,36 @@ Our recent topics and the related papers:
 - Zhiqing Zhong, 2023.9-Present
   - <em>B.S.</em> South China University of Technology
   - Publications: ICSE25
+- [Zhouruixing Zhu](https://zhuzrx.github.io/home-page/aboutme), 2024.9-Present
+  - <em>B.S.</em> Nanjing University of Aeronautics and Astronautics, <em>M.S.</em> CUHK-Shenzhen
+  - Publications: TOSEM24
+- [Aoyang Fang](https://profile.aoyangfang.top/), 2024.9-Present
+  - <em>B.S.</em> Harbin Institute of Technolgy, Shenzhen, <em>M.S.</em> CUHK-Shenzhen
+  - Publications: ASE23 (Industry Challenge Track), ICSE24
+  - Awards: Distinguished Paper Award (ASE23 Industry Challenge Track, First Level)
+- Xiaoyuan Liu, 2024.9-Present
+  - <em>B.S.</em> CUHK-Shenzhen
+- Changyue Li, 2024.9-Present
+  - <em>B.S.</em> Northeastern University, <em>M.S.</em> Beijing Institute of Technology
+  - Publications: ICSE25
+- Jiaming Huang, 2024.9-Present
+  - <em>B.S.</em> Peking University
 
 ### MPhil and MSc Student
-- Boyin Tan
-- Ruiyu Zhou
-- Zhouruixing Zhu
+- Ruiyu Zhou, 2023.9-Present
+  - <em>B.S.</em> CUHK-Shenzhen
+- Boyin Tan, 2023.9-Present
+  - <em>B.S.</em> University of Electronic Science and Technology of China
+- Yidan Wang, 2023.9-Present
+  - <em>B.S.</em> Xidian University
+- Menghan Tian, 2024.9-Present
+  - <em>B.S.</em> Tianjin University
+- Jiaying Li, 2024.9-Present
+  - <em>B.S.</em> Shandong University
+- Ziwen Cai, 2024.9-Present
+  - <em>B.S.</em> Beijing University of Posts and Telecommunications
 
 ### Research Assistant
-- Aoyang Fang: ASE23 InchTrack, ICSE24
-- Qingshuo Guo: NUS RA
 - [Qiuyang Mang](https://joyemang33.github.io/): ESEC/FSE23, ICSE24, NUS RA
 - Haowen Yang
 - Siyu Yu: TSC23, ESEC/FSE23 

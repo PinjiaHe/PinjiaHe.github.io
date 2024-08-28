@@ -55,6 +55,10 @@ Our recent topics and the related papers:
   - <em>B.S.</em> Peking University
 
 ### MPhil and MSc Student
+- Songhan Zhang, 2023.1-Present
+  - <em>B.S.</em> University of Science and Technology Beijing, <em>M.S.</em> HKUST
+- Sihang Zhao, 2023.1-Present
+  - <em>B.S.</em> Wuhan University of Technology, <em>M.S.</em> Imperial College London
 - Ruiyu Zhou, 2023.9-Present
   - <em>B.S.</em> CUHK-Shenzhen
 - Boyin Tan, 2023.9-Present
@@ -71,8 +75,6 @@ Our recent topics and the related papers:
 
 ### Research Assistant
 - [Qiuyang Mang](https://joyemang33.github.io/): ESEC/FSE23, ICSE24, NUS RA
-- Songhan Zhang
-- Sihang Zhao
 
 ### Undergrads
 I am grateful that I have the privilege to advise brilliant undergraduate students at CUHK-Shenzhen. Many have published top papers with us (e.g., ICSE, FSE, ISSTA, COLING), conducted overseas summer research (e.g., UIUC summer research, University of Chicago summer research), and got offers from top universities for graduate study (e.g., PhD at the University of Chicago, MSc at Cornell, UCSD, etc.) 

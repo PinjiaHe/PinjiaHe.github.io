@@ -40,7 +40,7 @@ Our recent topics and the related papers:
 - Zhiqing Zhong, 2023.9-Present
   - <em>B.S.</em> South China University of Technology
   - Publications: ICSE25
-- [Zhouruixing Zhu](https://zhuzrx.github.io/home-page/aboutme), 2024.9-Present
+- [Zhouruixing Zhu](https://zhuzrx.github.io/home-page/), 2024.9-Present
   - <em>B.S.</em> Nanjing University of Aeronautics and Astronautics, <em>M.S.</em> CUHK-Shenzhen
   - Publications: TOSEM24
 - [Aoyang Fang](https://profile.aoyangfang.top/), 2024.9-Present
@@ -51,7 +51,6 @@ Our recent topics and the related papers:
   - <em>B.S.</em> CUHK-Shenzhen
 - Changyue Li, 2024.9-Present
   - <em>B.S.</em> Northeastern University, <em>M.S.</em> Beijing Institute of Technology
-  - Publications: ICSE25
 - Jiaming Huang, 2024.9-Present
   - <em>B.S.</em> Peking University
 
@@ -62,6 +61,7 @@ Our recent topics and the related papers:
   - <em>B.S.</em> University of Electronic Science and Technology of China
 - Yidan Wang, 2023.9-Present
   - <em>B.S.</em> Xidian University
+  - Publications: ASE24
 - Menghan Tian, 2024.9-Present
   - <em>B.S.</em> Tianjin University
 - Jiaying Li, 2024.9-Present
@@ -71,42 +71,33 @@ Our recent topics and the related papers:
 
 ### Research Assistant
 - [Qiuyang Mang](https://joyemang33.github.io/): ESEC/FSE23, ICSE24, NUS RA
-- Haowen Yang
-- Siyu Yu: TSC23, ESEC/FSE23 
 - Songhan Zhang
 - Sihang Zhao
 
-### Visitors
-- Ying Fu
-- Dinghua Wang: ICSE24
-
 ### Undergrads
-I am grateful that I have the privilege to advise the following brilliant students:
+I am grateful that I have the privilege to advise brilliant undergraduate students at CUHK-Shenzhen. Many have published top papers with us (e.g., ICSE, FSE, ISSTA, COLING), conducted overseas summer research (e.g., UIUC summer research, University of Chicago summer research), and got offers from top universities for graduate study (e.g., PhD at the University of Chicago, MSc at Cornell, UCSD, etc.) 
 
-Fangda Chen, Wuzhou Du, Wenhan Hu (ESEC/FSE23), Jiaqi Li (ISSTA23), Lu Li, Zhengda Li, Xiaoyuan Liu (UIUC Summer Research), Chihao Shen, Lei Tian, Haoxuan Wang, Yiming Xiong, Yixing Yang (ISSTA23), Jiayi Yao (ISSTA22, ICSE24, UIUC Summer Research)
-
-*Note: If I missed any of you accidentally, please do email me (and forgive me). Please also let me know your latest status.*
 
 <!-- <br/> -->
 
 ## Alumni
-
+- Zhouruixing Zhu (MPhil, 2022.9-2024.7, next: PhD, CUHK-Shenzhen)
+- Aoyang Fang (MPhil, 2023.1-2024.7, next: PhD, CUHK-Shenzhen)
+- Haowen Yang (MPhil, 2022.9-2024.7, next: PhD, HKUST-Guangzhou)
+- Jialun Cao (Visiting PhD, 2024.3-2024.4, from HKUST, next: Research Assistant Professor, HKUST)
+- Ying Fu (Visiting PhD, 2023.8-2024.2, from Chongqing University)
+- Dinghua Wang (Visiting PhD, 2023.3-2024.2, from SUSTech)
 - Zhijing Li (Postdoc, 2021-2023, next: Researcher, Shenzhen University)
 
-### Undergraduates
-- 2023: Yiyan Hu (ESEC/FSE23, UCSD Master), Zhijun Huang (Cornell Master), Yifan Wu (Rice Master), Ruichun Yang (UCSD Master)
-- 2022: Haotian Xie (ICSE24, Pony.ai)
 
 ### Research Assistants
-- Zhiqing Zhong (next: CUHK-SZ PhD)
+- Siyu Yu (next: PhD, Peking University)
+- Zhiqing Zhong (next: PhD, CUHK-Shenzhen)
 - Yusheng Huang
-- Jianbo Yu (next: Southeast University PhD)
-- Qijing Shen (next: University of Oxford PhD)
-- Clara Meister (01.2019 -- 02.2020, coadvised by Zhendong Su, next: ETH Zurich PhD)
-  - Publications: ICSE21, ESEC/FSE20, ICSE20 
-- Rohan Parag Shah (Winter 2020, coadvised by Zhendong Su, next: CMU Master)
-- Shashij Gupta (Summer 2019, coadvised by Zhendong Su, next: Edverhub Founder)
-  - Publications: FSE20, ICSE20 SRC
-  - Awards: [2nd Prize in ACM Student Research Competition](https://src.acm.org/winners/2021)
+- Jianbo Yu (next: PhD, Southeast University)
+- Qijing Shen (next: PhD, University of Oxford)
+- Clara Meister (01.2019 -- 02.2020, co-advised by Zhendong Su, next: PhD, ETH Zurich)
+- Rohan Parag Shah (Winter 2020, co-advised by Zhendong Su, next: MSc, CMU)
+- Shashij Gupta (Summer 2019, co-advised by Zhendong Su, next: Founder, Edverhub)
 
 

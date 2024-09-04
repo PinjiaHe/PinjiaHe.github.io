@@ -50,7 +50,7 @@ Our recent topics and the related papers:
 - Xiaoyuan Liu, 2024.9-Present
   - <em>B.S.</em> CUHK-Shenzhen
 - Changyue Li, 2024.9-Present
-  - <em>B.S.</em> Northeastern University, <em>M.S.</em> Beijing Institute of Technology
+  - <em>B.S.</em> Northwestern Polytechnical University, <em>M.S.</em> Beijing Institute of Technology
 - Jiaming Huang, 2024.9-Present
   - <em>B.S.</em> Peking University
 

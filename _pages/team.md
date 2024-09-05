@@ -86,7 +86,7 @@ I am grateful that I have the privilege to advise brilliant undergraduate studen
 - Zhouruixing Zhu (MPhil, 2022.9-2024.7, next: PhD, CUHK-Shenzhen)
 - Aoyang Fang (MPhil, 2023.1-2024.7, next: PhD, CUHK-Shenzhen)
 - Haowen Yang (MPhil, 2022.9-2024.7, next: PhD, HKUST-Guangzhou)
-- Jialun Cao (Visiting PhD, 2024.3-2024.4, from HKUST, next: Research Assistant Professor, HKUST)
+- Jialun Cao (Visiting Scholar, 2024.3-2024.4, from HKUST, next: Research Assistant Professor, HKUST)
 - Ying Fu (Visiting PhD, 2023.8-2024.2, from Chongqing University)
 - Dinghua Wang (Visiting PhD, 2023.3-2024.2, from SUSTech)
 - Zhijing Li (Postdoc, 2021-2023, next: Researcher, Shenzhen University)

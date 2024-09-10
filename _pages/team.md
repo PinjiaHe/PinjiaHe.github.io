@@ -7,7 +7,7 @@ Our work is published routinely in the best venues, but more importantly, our wo
 
 Our recent topics and the related papers:
 1. AI for SE: [LLM for code](https://arxiv.org/abs/2404.08877), [AIOps](https://dl.acm.org/doi/abs/10.1145/3597503.3623326)
-2. SE for AI: [LLM safety](https://arxiv.org/abs/2308.06463)
+2. SE for AI: [LLM safety and evaluation](https://arxiv.org/abs/2308.06463)
 3. Software testing: [graph database](https://dl.acm.org/doi/abs/10.1145/3597503.3639200), [retromorphic testing](https://arxiv.org/abs/2310.06433)
 
 **CUHK-SZ Undergrads:** Our team is happy to work with excellent undergraduate students. Interested students are encouraged to contact me for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and any other relevant information.

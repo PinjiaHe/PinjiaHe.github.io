@@ -46,7 +46,7 @@ Our recent topics and the related papers:
 - [Aoyang Fang](https://profile.aoyangfang.top/), 2024.9-Present
   - <em>B.S.</em> Harbin Institute of Technolgy, Shenzhen, <em>M.S.</em> CUHK-Shenzhen
   - Publications: ASE23 (Industry Challenge Track), ICSE24
-  - Awards: Distinguished Paper Award (ASE23 Industry Challenge Track, First Level)
+  - Awards: Distinguished Paper Award (ASE23 Industry Challenge Track, First Level), Distinguished Artifact Reviewer Award (ECOOP24)
 - Xiaoyuan Liu, 2024.9-Present
   - <em>B.S.</em> CUHK-Shenzhen
 - Changyue Li, 2024.9-Present

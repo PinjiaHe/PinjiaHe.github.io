@@ -58,6 +58,7 @@ Our recent topics and the related papers:
 - Songhan Zhang, 2023.1-Present
   - <em>B.S.</em> University of Science and Technology Beijing, <em>M.S.</em> HKUST
 - Sihang Zhao, 2023.1-Present
+  - Publications: EMNLP24 (Findings)
   - <em>B.S.</em> Wuhan University of Technology, <em>M.S.</em> Imperial College London
 - Ruiyu Zhou, 2023.9-Present
   - <em>B.S.</em> CUHK-Shenzhen

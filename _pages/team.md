@@ -5,21 +5,13 @@ title: "Team"
 ## Prospective Students
 Our work is published routinely in the best venues, but more importantly, our work strives for elegance and impact, both conceptual and practical. Our group has open positions for **PhDs, MPhils, postdocs, research assistants, and visitors**. If you are interested in our group, please drop me an email.
 
-Our recent topics and the related papers:
-1. AI for SE: [LLM for code](https://arxiv.org/abs/2404.08877), [AIOps](https://dl.acm.org/doi/abs/10.1145/3597503.3623326)
-2. SE for AI: [LLM safety and evaluation](https://arxiv.org/abs/2308.06463)
-3. Software testing: [graph database](https://dl.acm.org/doi/abs/10.1145/3597503.3639200), [retromorphic testing](https://arxiv.org/abs/2310.06433)
-
-**CUHK-SZ Undergrads:** Our team is happy to work with excellent undergraduate students. Interested students are encouraged to contact me for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and any other relevant information.
+**CUHK-SZ Undergrads:** Our team is happy to work with excellent undergraduate students. Interested students are encouraged to contact me or my students for details. To help match you with suitable projects and mentors, please share your general interests, a copy of your recent resume/CV, copies of your transcripts, and which recent paper(s) in my group you like.
 
 **Good Advices for Research Students:**<br>
 [How to Read a Paper?](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)<br>
 [Tips on Writing a Research Paper](https://www.pldi21.org/prerecorded_plmw.2.html)<br>
 [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)<br>
 
-<!-- To get an idea of our recent research activities, please take a look at our [publications](https://dblp.org/pers/hd/h/He:Pinjia) and various projects, such as the [LogPAI project](https://github.com/logpai) and [Machine translation testing project](https://github.com/RobustNLP/TestTranslation). -->
-
-<!-- <br/> -->
 
 ## Current
 (Only *first-author* papers are listed for graduate students)
@@ -81,7 +73,6 @@ Our recent topics and the related papers:
 I am grateful that I have the privilege to advise brilliant undergraduate students at CUHK-Shenzhen. Many have published top papers with us (e.g., ICSE, FSE, ISSTA, COLING), conducted overseas summer research (e.g., UIUC summer research, University of Chicago summer research), and got offers from top universities for graduate study (e.g., PhD at the University of Chicago, MSc at Cornell, UCSD, etc.) 
 
 
-<!-- <br/> -->
 
 ## Alumni
 - Zhouruixing Zhu (MPhil, 2022.9-2024.7, next: PhD, CUHK-Shenzhen)

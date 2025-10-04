@@ -15,6 +15,6 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-\* Corresponding Author, + Equal Contribution
++ Students Supervised
 
 Complete list: \[[Google Scholar](https://scholar.google.com.hk/citations?user=vg0moI0AAAAJ&hl=en)\]\[[DBLP](https://dblp.org/pers/hd/h/He:Pinjia)\]

@@ -7,10 +7,11 @@ title: "Teaching"
 
 
 ### Current
-- CSC4001 Software Engineering (Spring 2025)
-- CSC6041 Software Engineering (Spring 2025)
+- AIE1001 Introduction to AI Programming (Fall 2025)
 
 ### Past
+- CSC4001 Software Engineering (Spring 2025)
+- CSC6041 Software Engineering (Spring 2025)
 - CSC4001 Software Engineering (Spring 2024)
 - CSC6041 Software Engineering (Spring 2024)
 - CSC1001 Intro to CS: Programming Methodology (Fall 2023)

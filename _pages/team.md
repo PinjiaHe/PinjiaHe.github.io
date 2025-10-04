@@ -14,7 +14,7 @@ Our work is published routinely in the best venues, but more importantly, our wo
 
 
 ## Current
-(Only *first-author* papers are listed for graduate students)
+(Only *first-author* papers are listed for my students)
 
 <!-- ### Postdoc -->
 
@@ -71,7 +71,7 @@ Our work is published routinely in the best venues, but more importantly, our wo
 
 
 ### Undergrads
-I am grateful that I have the privilege to advise brilliant undergraduate students at CUHK-Shenzhen. Many have published top papers with us (e.g., ICSE, FSE, ISSTA, COLING), conducted overseas summer research (e.g., UIUC summer research, University of Chicago summer research), and got offers from top universities for graduate study (e.g., PhD at the University of Chicago, MSc at Cornell, UCSD, etc.) 
+I am grateful that I have the privilege to advise brilliant undergraduate students at CUHK-Shenzhen. Many have published top papers with us (e.g., ICSE, FSE, ISSTA, COLING), conducted overseas summer research (e.g., UIUC summer research, University of Chicago summer research), and got offers from top universities for graduate study (e.g., PhD at UC Berkeley, University of Waterloo, University of Maryland, University of Chicago, etc.; MSc at CMU, Cornell, UCSD, etc.) 
 
 
 ## Alumni
@@ -79,7 +79,6 @@ I am grateful that I have the privilege to advise brilliant undergraduate studen
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
   - Publications: ISSTA22, ISSTA23, ESEC/FSE23, ICSE24, ACL25
   - Next: Senior Research Scientist, [Lero](https://lero.ie/)
-
 - Sihang Zhao (MPhil, 2023.1-2025.1, next: PhD, NYU Courant (Shanghai Track))
 - Ruiyu Zhou, (MPhil, 2023.9-2025.7, next: PhD, Nanjing University)
 - Boyin Tan, (MAIR, 2023.9-2025.7, next: PhD, MBZUAI)
@@ -88,8 +87,8 @@ I am grateful that I have the privilege to advise brilliant undergraduate studen
 - Aoyang Fang (MPhil, 2023.1-2024.7, next: PhD, CUHK-Shenzhen)
 - Haowen Yang (MPhil, 2022.9-2024.7, next: PhD, HKUST-Guangzhou)
 - Jialun Cao (Visiting Scholar, 2024.3-2024.4, from HKUST, next: Research Assistant Professor, HKUST)
-- Ying Fu (Visiting PhD, 2023.8-2024.2, from Chongqing University)
-- Dinghua Wang (Visiting PhD, 2023.3-2024.2, from SUSTech)
+- Ying Fu (Visiting PhD, 2023.8-2024.2, from Chongqing University, current: Assistant Professor, Southwest Jiaotong University)
+- Dinghua Wang (Visiting PhD, 2023.3-2024.2, from UTS/SUSTech, current: Associate Research Fellow, Hainan University)
 - Zhijing Li (Postdoc, 2021-2023, next: Researcher, Shenzhen University)
 
 

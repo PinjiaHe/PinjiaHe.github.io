@@ -71,7 +71,7 @@ Our work is published routinely in the best venues, but more importantly, our wo
 
 
 ### Undergrads
-I am grateful that I have the privilege to advise brilliant undergraduate students at CUHK-Shenzhen. Many have published top papers with us (e.g., ICSE, FSE, ISSTA, COLING), conducted overseas summer research (e.g., UIUC summer research, University of Chicago summer research), and got offers from top universities for graduate study (e.g., PhD at UC Berkeley, University of Waterloo, University of Maryland, University of Chicago, etc.; MSc at CMU, Cornell, UCSD, etc.) 
+I am grateful that I have the privilege to advise brilliant undergraduate students at CUHK-Shenzhen. Many have published top papers with us (e.g., ICSE, FSE, ISSTA, NeurIPS, ICLR, EMNLP, SIGMOD), conducted overseas summer research (e.g., UIUC summer research, University of Chicago summer research), and got offers from top universities for graduate study (e.g., PhD at UC Berkeley, University of Waterloo, University of Maryland, University of Chicago, etc.; MSc at CMU, Cornell, UCSD, etc.) 
 
 
 ## Alumni

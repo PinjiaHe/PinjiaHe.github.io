@@ -93,12 +93,8 @@ I am grateful that I have the privilege to advise brilliant undergraduate studen
 
 
 ### Research Assistants
-- [Qiuyang Mang](https://joyemang33.github.io/), CUHK-Shenzhen Undergraduate
-  - Publications: ICSE24, SIGMOD25
-  - Next: PhD, UC Berkeley
-- Yuejin Xie
-  - Publications: EMNLP25
-  - Next: MPhil, Tsinghua SIGS
+- [Qiuyang Mang](https://joyemang33.github.io/) (CUHK-Shenzhen Undergraduate, next: PhD, UC Berkeley) 
+- Yuejin Xie (next: MPhil, Tsinghua SIGS)
 - Qingshuo Guo (CUHK-Shenzhen Undergraduate, next: PhD, University of Waterloo)
 - [Chihao Shen](https://stevenshen3641.github.io/) (CUHK-Shenzhen Undergraduate, next: PhD, University of Maryland)
 - Siyu Yu (next: PhD, Peking University)

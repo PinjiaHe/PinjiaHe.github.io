@@ -26,17 +26,19 @@ Our work is published routinely in the best venues, but more importantly, our wo
 - [Youliang Yuan](https://youliangyuan.github.io/), 2022.9-Present
   - <em>B.S.</em> Tongji University, <em>M.S.</em> Wuhan University
   - Publications: ICLR24, COLING24 (Oral), ACL25, NeurIPS25 (DB Track)
+  - Awards: NeurIPS25 Top Reviewer
 - Songhan Zhang, 2023.1-Present
   - <em>B.S.</em> University of Science and Technology Beijing, <em>M.S.</em> HKUST
 - Zhiqing Zhong, 2023.9-Present
   - <em>B.S.</em> South China University of Technology
-  - Publications: ICSE25
+  - Publications: ICSE25, FSE26
 - [Aoyang Fang](https://profile.aoyangfang.top/), 2024.9-Present
   - <em>B.S.</em> Harbin Institute of Technolgy, Shenzhen, <em>M.S.</em> CUHK-Shenzhen
-  - Publications: ASE23 (Industry Challenge Track), ICSE24, ASE25
+  - Publications: ASE23 (Industry Challenge Track), ICSE24, ASE25, FSE26
   - Awards: Distinguished Paper Award (ASE23 Industry Challenge Track, First Level), Distinguished Artifact Reviewer Award (ECOOP24)
 - Jiaming Huang, 2024.9-Present
   - <em>B.S.</em> Peking University
+  - Publications: FSE26
 - Changyue Li, 2024.9-Present
   - <em>B.S.</em> Northwestern Polytechnical University, <em>M.S.</em> Beijing Institute of Technology
 - [Xiaoyuan Liu](https://xyliu-cs.github.io/), 2024.9-Present

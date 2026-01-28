@@ -43,7 +43,7 @@ Our work is published routinely in the best venues, but more importantly, our wo
   - <em>B.S.</em> Northwestern Polytechnical University, <em>M.S.</em> Beijing Institute of Technology
 - [Xiaoyuan Liu](https://xyliu-cs.github.io/), 2024.9-Present
   - <em>B.S.</em> Bachelor-PhD Class, CUHK-Shenzhen
-  - Publications: ACL25, NeurIPS25
+  - Publications: ACL25, NeurIPS25, ICLR26
 - [Zhouruixing Zhu](https://zhouruixingzhu.github.io/), 2024.9-Present
   - <em>B.S.</em> Nanjing University of Aeronautics and Astronautics, <em>M.S.</em> CUHK-Shenzhen
   - Publications: TOSEM24

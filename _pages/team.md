@@ -22,6 +22,7 @@ Our work is published routinely in the best venues, but more importantly, our wo
 - [Junjielong Xu](https://siyuexi.github.io/), 2022.9-Present
   - <em>B.S.</em> Huazhong University of Science and Technology
   - Awards: 1st Prize in CUMCM, Finalist in MCM
+  - Visits: ETH Zurich
   - Publications: ESEC/FSE23, ICSE24(x2), ICSE25, ICLR25
 - [Youliang Yuan](https://youliangyuan.github.io/), 2022.9-Present
   - <em>B.S.</em> Tongji University, <em>M.S.</em> Wuhan University
@@ -51,6 +52,9 @@ Our work is published routinely in the best venues, but more importantly, our wo
   - <em>B.S.</em> Huazhong University of Science and Technology
 - Huachao Zhu, 2025.9-Present
   - <em>B.S.</em> Huazhong University of Science and Technology, <em>M.S.</em> Wuhan University
+- Tong Zhu, 2026.1-Present
+  - <em>B.S.</em> East China Normal University
+  - Awards: ICPC World Finalist(x2)
 
 ### MPhil and MSc Student
 - Ziwen Cai, 2024.9-Present

@@ -75,21 +75,21 @@ I am grateful that I have the privilege to advise brilliant undergraduate studen
   - Awards: 1st Prize in CUMCM, Finalist in MCM
   - Visits: ETH Zurich
   - Publications: ESEC/FSE23, ICSE24(x2), ICSE25, ICLR25
-  - Next: Tencent Hunyuan (Project UP 青云计划)
+  - Next: Researcher, Tencent Hunyuan (Project UP 青云计划)
 - [Youliang Yuan](https://youliangyuan.github.io/), 2022.9-2026.7
   - <em>B.S.</em> Tongji University, <em>M.S.</em> Wuhan University
   - Publications: ICLR24, COLING24 (Oral), ACL25, NeurIPS25 (DB Track), ACL26
   - Awards: NeurIPS25 Top Reviewer
-  - Next: Meituan LongCat (Beidou Program 北斗计划)
+  - Next: Researcher, Meituan LongCat (Beidou Program 北斗计划)
 - [Boxi Yu](https://boxiyu.github.io/), PhD, 2021.9-2025.7
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
   - Publications: ISSTA22, ISSTA23, ESEC/FSE23, ICSE24, ACL25
   - Next: Senior Research Scientist, [Lero](https://lero.ie/)
 
 ### MPhil and MSc
-- Ziwen Cai (MPhil, 2024.9-2026.7, next: Xiaomi)
-- Menghan Tian (MPhil, 2024.9-2026.7, next: Meituan)
-- Jiaying Li (MPhil, 2024.9-2026.7, next: OPPO)
+- Ziwen Cai (MPhil, 2024.9-2026.7, next: Algorithm Engineer, Xiaomi)
+- Menghan Tian (MPhil, 2024.9-2026.7, next: Algorithm Engineer, Meituan)
+- Jiaying Li (MPhil, 2024.9-2026.7, next: Algorithm Engineer, OPPO)
 - Sihang Zhao (MPhil, 2023.1-2025.1, next: PhD, NYU Courant (Shanghai Track))
 - Ruiyu Zhou (MPhil, 2023.9-2025.7, next: PhD, Nanjing University)
 - Boyin Tan (MAIR, 2023.9-2025.7, next: PhD, MBZUAI)

@@ -19,35 +19,29 @@ Our work is published routinely in the best venues, but more importantly, our wo
 <!-- ### Postdoc -->
 
 ### PhD Student
-- [Junjielong Xu](https://siyuexi.github.io/), 2022.9-Present
-  - <em>B.S.</em> Huazhong University of Science and Technology
-  - Awards: 1st Prize in CUMCM, Finalist in MCM
-  - Visits: ETH Zurich
-  - Publications: ESEC/FSE23, ICSE24(x2), ICSE25, ICLR25
-- [Youliang Yuan](https://youliangyuan.github.io/), 2022.9-Present
-  - <em>B.S.</em> Tongji University, <em>M.S.</em> Wuhan University
-  - Publications: ICLR24, COLING24 (Oral), ACL25, NeurIPS25 (DB Track)
-  - Awards: NeurIPS25 Top Reviewer
-- Songhan Zhang, 2023.1-Present
-  - <em>B.S.</em> University of Science and Technology Beijing, <em>M.S.</em> HKUST
-- Zhiqing Zhong, 2023.9-Present
+- [Zhiqing Zhong](https://coxhin.github.io/), 2023.9-Present
   - <em>B.S.</em> South China University of Technology
   - Publications: ICSE25, FSE26
+  - Visits: Aalto University
 - [Aoyang Fang](https://profile.aoyangfang.top/), 2024.9-Present
-  - <em>B.S.</em> Harbin Institute of Technolgy, Shenzhen, <em>M.S.</em> CUHK-Shenzhen
+  - <em>B.S.</em> Harbin Institute of Technology, Shenzhen, <em>M.S.</em> CUHK-Shenzhen
   - Publications: ASE23 (Industry Challenge Track), ICSE24, ASE25, FSE26
   - Awards: Distinguished Paper Award (ASE23 Industry Challenge Track, First Level), Distinguished Artifact Reviewer Award (ECOOP24)
+  - Visits: Aalto University
+- [Zhouruixing Zhu](https://zhouruixingzhu.github.io/), 2024.9-Present
+  - <em>B.S.</em> Nanjing University of Aeronautics and Astronautics, <em>M.S.</em> CUHK-Shenzhen
+  - Publications: TOSEM24
 - Jiaming Huang, 2024.9-Present
   - <em>B.S.</em> Peking University
   - Publications: FSE26
 - Changyue Li, 2024.9-Present
   - <em>B.S.</em> Northwestern Polytechnical University, <em>M.S.</em> Beijing Institute of Technology
+  - Publications: ICML26
 - [Xiaoyuan Liu](https://xyliu-cs.github.io/), 2024.9-Present
   - <em>B.S.</em> Bachelor-PhD Class, CUHK-Shenzhen
   - Publications: ACL25, NeurIPS25, ICLR26
-- [Zhouruixing Zhu](https://zhouruixingzhu.github.io/), 2024.9-Present
-  - <em>B.S.</em> Nanjing University of Aeronautics and Astronautics, <em>M.S.</em> CUHK-Shenzhen
-  - Publications: TOSEM24
+- Songhan Zhang, 2023.1-Present (Transferred from MPhil)
+  - <em>B.S.</em> University of Science and Technology Beijing, <em>M.S.</em> HKUST
 - Qisheng Lu, 2025.9-Present
   - <em>B.S.</em> Huazhong University of Science and Technology
 - Huachao Zhu, 2025.9-Present
@@ -81,6 +75,17 @@ I am grateful that I have the privilege to advise brilliant undergraduate studen
 
 
 ## Alumni
+- [Junjielong Xu](https://siyuexi.github.io/), 2022.9-2026.7
+  - <em>B.S.</em> Huazhong University of Science and Technology
+  - Awards: 1st Prize in CUMCM, Finalist in MCM
+  - Visits: ETH Zurich
+  - Publications: ESEC/FSE23, ICSE24(x2), ICSE25, ICLR25
+  - Next: Tencent Hunyuan (Project UP 青云计划)
+- [Youliang Yuan](https://youliangyuan.github.io/), 2022.9-2026.7
+  - <em>B.S.</em> Tongji University, <em>M.S.</em> Wuhan University
+  - Publications: ICLR24, COLING24 (Oral), ACL25, NeurIPS25 (DB Track), ACL26
+  - Awards: NeurIPS25 Top Reviewer
+  - Next: Meituan LongCat (Beidou Program 北斗计划)
 - [Boxi Yu](https://boxiyu.github.io/), PhD, 2021.9-2025.7
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
   - Publications: ISSTA22, ISSTA23, ESEC/FSE23, ICSE24, ACL25

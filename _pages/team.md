@@ -51,12 +51,6 @@ Our work is published routinely in the best venues, but more importantly, our wo
   - Awards: ICPC World Finalist(x2)
 
 ### MPhil and MSc Student
-- Ziwen Cai, 2024.9-Present
-  - <em>B.S.</em> Beijing University of Posts and Telecommunications
-- Menghan Tian, 2024.9-Present
-  - <em>B.S.</em> Tianjin University
-- Jiaying Li, 2024.9-Present
-  - <em>B.S.</em> Shandong University
 - Sicheng Li, 2025.9-Present
   - <em>B.S.</em> Huazhong University of Science and Technology
 - Tinghan Li, 2025.9-Present
@@ -75,6 +69,7 @@ I am grateful that I have the privilege to advise brilliant undergraduate studen
 
 
 ## Alumni
+### PhD
 - [Junjielong Xu](https://siyuexi.github.io/), 2022.9-2026.7
   - <em>B.S.</em> Huazhong University of Science and Technology
   - Awards: 1st Prize in CUMCM, Finalist in MCM
@@ -90,13 +85,19 @@ I am grateful that I have the privilege to advise brilliant undergraduate studen
   - <em>B.S. and M.S.</em> Gifted Class, South China University of Technology
   - Publications: ISSTA22, ISSTA23, ESEC/FSE23, ICSE24, ACL25
   - Next: Senior Research Scientist, [Lero](https://lero.ie/)
+### MPhil and MSc
+- Ziwen Cai (MPhil, 2024.9-2026.7, next: Xiaomi)
+- Menghan Tian (MPhil, 2024.9-2026.7, next: Meituan)
+- Jiaying Li (MPhil, 2024.9-2026.7, next: OPPO)
 - Sihang Zhao (MPhil, 2023.1-2025.1, next: PhD, NYU Courant (Shanghai Track))
-- Ruiyu Zhou, (MPhil, 2023.9-2025.7, next: PhD, Nanjing University)
-- Boyin Tan, (MAIR, 2023.9-2025.7, next: PhD, MBZUAI)
-- Yidan Wang, (MAIR, 2023.9-2025.7)
+- Ruiyu Zhou (MPhil, 2023.9-2025.7, next: PhD, Nanjing University)
+- Boyin Tan (MAIR, 2023.9-2025.7, next: PhD, MBZUAI)
+- Yidan Wang (MAIR, 2023.9-2025.7)
 - Zhouruixing Zhu (MPhil, 2022.9-2024.7, next: PhD, CUHK-Shenzhen)
 - Aoyang Fang (MPhil, 2023.1-2024.7, next: PhD, CUHK-Shenzhen)
 - Haowen Yang (MPhil, 2022.9-2024.7, next: PhD, HKUST-Guangzhou)
+
+### Postdoc and Visiting 
 - Jialun Cao (Visiting Scholar, 2024.3-2024.4, from HKUST, next: Research Assistant Professor, HKUST)
 - Ying Fu (Visiting PhD, 2023.8-2024.2, from Chongqing University, current: Assistant Professor, Southwest Jiaotong University)
 - Dinghua Wang (Visiting PhD, 2023.3-2024.2, from UTS/SUSTech, current: Associate Research Fellow, Hainan University)

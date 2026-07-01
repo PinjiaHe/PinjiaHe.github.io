@@ -10,7 +10,7 @@ redirect_from:
 
 About Me
 ======
-Pinjia He is an Assistant Professor at the [School of Data Science](https://sds.cuhk.edu.cn/en) and the [School of Artificial Intelligence](https://sai.cuhk.edu.cn/en) at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en). He is the Assistant Dean (Research) at the School of Data Science.
+Pinjia He is an Associate Professor at the [School of Data Science](https://sds.cuhk.edu.cn/en) and the [School of Artificial Intelligence](https://sai.cuhk.edu.cn/en) at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en). He is the Assistant Dean (Research) at the School of Data Science.
 
 His research spans software engineering, natural language processing, and systems. He is interested in the following topics: 
 - AI for Software Engineering: LLM for DevOps, LLM for code. 

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Pinjia He"
 title_separator          : "-"
 name                     : &name "Pinjia He"
-description              : &description "Assistant professor at CUHK (Shenzhen)"
+description              : &description "Associate professor at CUHK (Shenzhen)"
 url                      : https://pinjiahe.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "PinjiaHe.github.io"
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Pinjia He"
   avatar           : "profile.jpg"
-  bio              : "Assistant professor and Presidential Young Fellow at CUHK-Shenzhen. 国家级青年人才."
+  bio              : "Associate professor and Presidential Young Fellow at CUHK-Shenzhen. 国家级青年人才."
   location         : "Shenzhen, China"
   employer         :
   pubmed           :

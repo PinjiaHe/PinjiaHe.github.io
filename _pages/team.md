@@ -19,7 +19,7 @@ Our work is published routinely in the best venues, but more importantly, our wo
 <!-- ### Postdoc -->
 
 ### PhD Student
-- [Zhiqing Zhong](https://coxhin.github.io/), 2023.9-Present
+- [Zhiqing Zhong](https://coxhin.github.io/), 2023.9-Present (Co-supervise with [Boxi Yu](https://boxiyu.github.io/))
   - <em>B.S.</em> South China University of Technology
   - Publications: ICSE25, FSE26
   - Visits: Aalto University

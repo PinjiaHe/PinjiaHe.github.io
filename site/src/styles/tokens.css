@@ -1,0 +1,14 @@
+:root {
+  --white:#fff;
+  --award:#705522;
+  --serif:Georgia,'Times New Roman','Songti SC',serif;
+  --paper:#fff;
+  --surface:#f7f9fb;
+  --ink:#282d34;
+  --muted:#57616d;
+  --accent:#2265aa;
+  --accent-light:#edf4fb;
+  --rule:#e3e8ed;
+  --content:980px;
+  --sans:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'PingFang SC', sans-serif;
+}

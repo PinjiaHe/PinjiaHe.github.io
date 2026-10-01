@@ -1,0 +1,178 @@
+{
+  "providedOn": "2026-09-30",
+  "source": "Owner-provided chat request to add eight undergraduate interns, normalize ICLR25 and ICSE24, preserve the first four, and use four columns for the rest ordered by paper year then surname.",
+  "pinnedIds": [
+    "qiuyang-mang",
+    "qingshuo-guo",
+    "chihao-shen",
+    "jiayi-yao"
+  ],
+  "ordering": "Ascending publication year, then surname; retain the supplied order for equal year and surname (Yiyan Hu before Wenhan Hu). The existing order field records the verified sequence.",
+  "newMemberBoundary": "Only name, undergraduate role and co-author venue/year were supplied. Use status unknown with no inferred dates, degree, website or next step; do not guess full-paper mappings or links.",
+  "records": [
+    {
+      "id": "yiyan-hu",
+      "name": "Yiyan Hu",
+      "year": 2023,
+      "surname": "Hu",
+      "isNew": true,
+      "order": 200,
+      "papers": [
+        {
+          "label": "FSE23",
+          "firstAuthor": false
+        }
+      ]
+    },
+    {
+      "id": "wenhan-hu",
+      "name": "Wenhan Hu",
+      "year": 2023,
+      "surname": "Hu",
+      "isNew": true,
+      "order": 210,
+      "papers": [
+        {
+          "label": "FSE23",
+          "firstAuthor": false
+        }
+      ]
+    },
+    {
+      "id": "jiaqi-li",
+      "name": "Jiaqi Li",
+      "year": 2023,
+      "surname": "Li",
+      "isNew": true,
+      "order": 220,
+      "papers": [
+        {
+          "label": "ISSTA23",
+          "firstAuthor": false
+        }
+      ]
+    },
+    {
+      "id": "yixing-yang",
+      "name": "Yixing Yang",
+      "year": 2023,
+      "surname": "Yang",
+      "isNew": true,
+      "order": 230,
+      "papers": [
+        {
+          "label": "ISSTA23",
+          "firstAuthor": false
+        }
+      ]
+    },
+    {
+      "id": "hanfan-chen",
+      "name": "Hanfan Chen",
+      "year": 2024,
+      "surname": "Chen",
+      "isNew": true,
+      "order": 240,
+      "papers": [
+        {
+          "label": "ICSE24",
+          "firstAuthor": false
+        }
+      ]
+    },
+    {
+      "id": "haotian-xie",
+      "name": "Haotian Xie",
+      "year": 2024,
+      "surname": "Xie",
+      "isNew": false,
+      "order": 250,
+      "papers": [
+        {
+          "label": "ICSE24",
+          "firstAuthor": false,
+          "url": "https://boxiyu.github.io/assets/pdf/LightAD.pdf"
+        }
+      ]
+    },
+    {
+      "id": "yiming-xiong",
+      "name": "Yiming Xiong",
+      "year": 2024,
+      "surname": "Xiong",
+      "isNew": false,
+      "order": 260,
+      "papers": [
+        {
+          "label": "COLING24 (Oral)",
+          "firstAuthor": false,
+          "url": "https://aclanthology.org/2024.lrec-main.462/"
+        }
+      ]
+    },
+    {
+      "id": "ruichun-yang",
+      "name": "Ruichun Yang",
+      "year": 2024,
+      "surname": "Yang",
+      "isNew": true,
+      "order": 270,
+      "papers": [
+        {
+          "label": "ICSE24",
+          "firstAuthor": false
+        }
+      ]
+    },
+    {
+      "id": "zhengda-li",
+      "name": "Zhengda Li",
+      "year": 2025,
+      "surname": "Li",
+      "isNew": true,
+      "order": 280,
+      "papers": [
+        {
+          "label": "FSE25",
+          "firstAuthor": false
+        }
+      ]
+    },
+    {
+      "id": "haoxuan-wang",
+      "name": "Haoxuan Wang",
+      "year": 2025,
+      "surname": "Wang",
+      "isNew": true,
+      "order": 290,
+      "papers": [
+        {
+          "label": "ICSE25",
+          "firstAuthor": false
+        }
+      ]
+    },
+    {
+      "id": "qinan-zhang",
+      "name": "Qinan Zhang",
+      "year": 2025,
+      "surname": "Zhang",
+      "isNew": false,
+      "order": 300,
+      "papers": [
+        {
+          "label": "ICLR25",
+          "firstAuthor": false,
+          "url": "/publications/#openrca-2025"
+        }
+      ]
+    }
+  ],
+  "expectedCounts": {
+    "uniquePeople": 68,
+    "entries": 70,
+    "current": 30,
+    "alumniEntries": 25,
+    "interns": 15
+  }
+}

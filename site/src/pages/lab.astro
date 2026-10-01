@@ -1,0 +1,50 @@
+---
+import {getCollection,getEntry} from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import PersonEntry from '../components/PersonEntry.astro';
+import {activeMembership,lastMembership,alumniMembershipEntries,memberGroup,roleLabels} from '../lib/people';
+const lab = (await getEntry('pages','lab'))!;
+const people = (await getCollection('people',({data})=>data.visibility==='public')).sort((a,b)=>a.data.order-b.data.order || a.id.localeCompare(b.id));
+const primaryMembership = (person:typeof people[number]) => activeMembership(person.data) ?? lastMembership(person.data);
+const interns = people.filter(p=>primaryMembership(p).role==='undergraduate');
+const current = people.filter(p=>activeMembership(p.data) && !interns.includes(p));
+const former = people.filter(p=>!activeMembership(p.data) && lastMembership(p.data).status==='completed' && !interns.includes(p)).sort((a,b)=>(lastMembership(b.data).end??'').localeCompare(lastMembership(a.data).end??'') || a.data.order-b.data.order);
+const roles = [...new Set(current.map(p=>memberGroup(activeMembership(p.data)!.role)))];
+const peopleById = new Map(people.map(person=>[person.data.id,person]));
+const masterAlumni = alumniMembershipEntries(people.map(p=>p.data)).filter(entry=>memberGroup(entry.membership.role)==='masters');
+const formerGroup = (role:string) => ['postdoc','visitor'].includes(role) ? 'postdoc-visiting' : memberGroup(role);
+const formerRoles = [...new Set([...former.map(p=>formerGroup(lastMembership(p.data).role)),...(masterAlumni.length ? ['masters'] : [])])];
+const alumniGroupOrder = ['phd','masters','postdoc-visiting','ra'];
+formerRoles.sort((a,b)=>(alumniGroupOrder.includes(a) ? alumniGroupOrder.indexOf(a) : alumniGroupOrder.length)-(alumniGroupOrder.includes(b) ? alumniGroupOrder.indexOf(b) : alumniGroupOrder.length));
+const alumniRoleLabels:Record<string,string> = {...roleLabels,masters:'MPhil & MSc Students','postdoc-visiting':'Postdoc & Visiting'};
+const publications = await getCollection('publications',({data})=>data.visibility==='public');
+---
+<Layout title={lab.data.title} description={lab.data.description}>
+  <div class="container">
+    <header class="page-hero lab-hero" id="overview"><p class="eyebrow">Software Engineering × AI · CUHK-Shenzhen</p><h1>{lab.data.title}</h1><p>{lab.data.mission}</p></header>
+    <nav class="anchor-nav" aria-label="Lab sections"><a href="#overview">Overview</a><a href="#people">Current Members</a><a href="#alumni">Alumni</a><a href="#undergraduate-interns">{roleLabels.undergraduate}</a><a href="#join">Join Us</a></nav>
+    <section class="people-section" id="people">
+      <div class="section-heading"><div><p class="eyebrow">People</p><h2>Current Members</h2></div></div>
+      <p class="section-note">First-author publications are <span class="first-author-publication">underlined</span>.</p>
+      {roles.map(role=><div class="people-group"><h3 class="group-heading">{roleLabels[role]}</h3><div class="people-grid">{current.filter(p=>memberGroup(activeMembership(p.data)!.role)===role).map(person=><PersonEntry person={person} publications={publications}/>)}</div></div>)}
+    </section>
+    <section class="people-section" id="alumni">
+      <div class="section-heading"><div><p class="eyebrow">People</p><h2>Alumni</h2></div></div>
+      {formerRoles.map(role=>{
+        if (role === 'masters') return <div class="people-group"><h3 class="group-heading">{alumniRoleLabels[role]}</h3><div class="people-grid people-compact-grid">{masterAlumni.map(({person,membership})=><PersonEntry person={peopleById.get(person.id)!} publications={publications} membershipId={membership.id} compact/>)}</div></div>;
+        const group = former.filter(p=>formerGroup(lastMembership(p.data).role)===role);
+        const compactGrid = role === 'ra' || role === 'postdoc-visiting';
+        if (compactGrid) group.sort((a,b)=>a.data.order-b.data.order || a.id.localeCompare(b.id));
+        if (role === 'postdoc-visiting') group.sort((a,b)=>Number(lastMembership(a.data).role==='visitor')-Number(lastMembership(b.data).role==='visitor'));
+        if (role === 'postdoc-visiting') return <div class="people-group"><h3 class="group-heading">{alumniRoleLabels[role]}</h3><div class="people-grid people-compact-grid">{group.map(person=><PersonEntry person={person} publications={publications} compact/>)}</div></div>;
+        return <div class="people-group"><h3 class="group-heading">{alumniRoleLabels[role]}</h3><div class="people-grid">{group.filter(p=>p.data.entryStyle==='full').map(person=><PersonEntry person={person} publications={publications}/>)}</div><div class={compactGrid ? 'people-grid people-compact-grid' : 'people-compact-list'}>{group.filter(p=>p.data.entryStyle==='compact').map(person=><PersonEntry person={person} publications={publications} compact/>)}</div></div>;
+      })}
+    </section>
+    <section class="people-section" id="undergraduate-interns">
+      <div class="section-heading"><h2>{roleLabels.undergraduate}</h2></div>
+      {lab.data.undergraduateNote && <p class="undergraduate-note">{lab.data.undergraduateNote}</p>}
+      {interns.length > 0 ? <div class="people-grid people-compact-grid intern-publication-grid">{interns.map(person=><PersonEntry person={person} publications={publications} compact/>)}</div> : <p class="section-note">Member list to be added.</p>}
+    </section>
+    <section class="join-section" id="join" aria-labelledby="join-heading"><h2 id="join-heading">Join Us</h2><p>{lab.data.joinText}</p><div class="hero-buttons"><a class="button primary" href="/join/">Before You Apply</a></div></section>
+  </div>
+</Layout>

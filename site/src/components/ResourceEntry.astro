@@ -1,0 +1,6 @@
+---
+import type {CollectionEntry} from 'astro:content';
+interface Props {resource:CollectionEntry<'resources'>;}
+const {data:r} = Astro.props.resource;
+---
+<article class="resource-entry"><p class="eyebrow">Recommended Reading <span>· {r.lang === 'en' ? 'EN' : '中文'}</span></p><h3><a href={r.url}>{r.title}</a></h3><p class="resource-author">{r.author}</p>{r.recommendation && <p>{r.recommendation}</p>}</article>

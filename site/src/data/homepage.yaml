@@ -1,0 +1,11 @@
+featuredProjectIds:
+  - openrca
+  - cipherchat
+  - logpai
+featuredNoteIds: []
+featuredResourceIds:
+  - you-and-your-research
+  - how-to-read-a-paper
+  - tips-on-writing-a-research-paper
+showMetrics: false
+showLabPhoto: true

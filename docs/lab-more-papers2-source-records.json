@@ -1,0 +1,891 @@
+{
+  "providedOn": "2026-09-30",
+  "source": "Owner-provided more_papers2.md and accompanying request",
+  "scope": "Append Lab person-level summaries and awards, preserve all existing facts, underline only first-author summaries and order each updated list by year ascending. This does not add complete publication records or infer titles, links, author mappings, or membership-stage attribution.",
+  "ordering": "Ascending year; preserve the existing relative order within each year, then append supplied additions in attachment order within that year.",
+  "sameVenuePolicy": "Existing first-author and additional co-author summaries remain separate even when venue and year match; only the first-author summary is underlined. Multiplicity and track labels are preserved. Education-stage summaries remain unchanged.",
+  "totals": {
+    "people": 19,
+    "existingSummaryItems": 24,
+    "addedSummaryItems": 47,
+    "addedFirstAuthorItems": 9,
+    "addedCoauthorItems": 38,
+    "addedAwards": 1
+  },
+  "records": [
+    {
+      "id": "zhiqing-zhong",
+      "name": "Zhiqing Zhong",
+      "entryId": "zhiqing-zhong",
+      "before": [
+        {
+          "label": "ICSE25",
+          "firstAuthor": true
+        },
+        {
+          "label": "FSE26",
+          "firstAuthor": true
+        }
+      ],
+      "additions": [
+        {
+          "label": "ICML26",
+          "firstAuthor": false
+        },
+        {
+          "label": "FSE25",
+          "firstAuthor": false
+        },
+        {
+          "label": "ICLR25",
+          "firstAuthor": false
+        },
+        {
+          "label": "ICSE24",
+          "firstAuthor": false
+        },
+        {
+          "label": "ISSTA23",
+          "firstAuthor": false
+        },
+        {
+          "label": "ISSTA22",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "ISSTA22",
+          "firstAuthor": false
+        },
+        {
+          "label": "ISSTA23",
+          "firstAuthor": false
+        },
+        {
+          "label": "ICSE24",
+          "firstAuthor": false
+        },
+        {
+          "label": "ICSE25",
+          "firstAuthor": true
+        },
+        {
+          "label": "FSE25",
+          "firstAuthor": false
+        },
+        {
+          "label": "ICLR25",
+          "firstAuthor": false
+        },
+        {
+          "label": "FSE26",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICML26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": "ICSE25, FSE26",
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "aoyang-fang",
+      "name": "Aoyang Fang",
+      "entryId": "aoyang-fang",
+      "before": [
+        {
+          "label": "ASE23 (Industry Challenge Track)",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE24",
+          "firstAuthor": true
+        },
+        {
+          "label": "ASE25",
+          "firstAuthor": true
+        },
+        {
+          "label": "FSE26",
+          "firstAuthor": true
+        }
+      ],
+      "additions": [
+        {
+          "label": "ISSTA26",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "ASE23 (Industry Challenge Track)",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE24",
+          "firstAuthor": true
+        },
+        {
+          "label": "ASE25",
+          "firstAuthor": true
+        },
+        {
+          "label": "FSE26",
+          "firstAuthor": true
+        },
+        {
+          "label": "ISSTA26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [
+        "Distinguished Paper Award (ASE23 Industry Challenge Track, First Level)",
+        "Distinguished Artifact Reviewer Award (ECOOP24)"
+      ],
+      "awardAdditions": [],
+      "awardsAfter": [
+        "Distinguished Paper Award (ASE23 Industry Challenge Track, First Level)",
+        "Distinguished Artifact Reviewer Award (ECOOP24)"
+      ],
+      "legacyFirstAuthorSummary": "ASE23 (Industry Challenge Track), ICSE24, ASE25, FSE26",
+      "hiddenHistoricalEntryId": "aoyang-fang--aoyang-fang-mphil"
+    },
+    {
+      "id": "zhouruixing-zhu",
+      "name": "Zhouruixing Zhu",
+      "entryId": "zhouruixing-zhu",
+      "before": [
+        {
+          "label": "TOSEM24",
+          "firstAuthor": true
+        }
+      ],
+      "additions": [
+        {
+          "label": "FSE23",
+          "firstAuthor": false
+        },
+        {
+          "label": "ASE24",
+          "firstAuthor": false
+        },
+        {
+          "label": "TOSEM26",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "FSE23",
+          "firstAuthor": false
+        },
+        {
+          "label": "TOSEM24",
+          "firstAuthor": true
+        },
+        {
+          "label": "ASE24",
+          "firstAuthor": false
+        },
+        {
+          "label": "TOSEM26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": "TOSEM24",
+      "hiddenHistoricalEntryId": "zhouruixing-zhu--zhouruixing-zhu-mphil"
+    },
+    {
+      "id": "xiaoyuan-liu",
+      "name": "Xiaoyuan Liu",
+      "entryId": "xiaoyuan-liu",
+      "before": [
+        {
+          "label": "ACL25",
+          "firstAuthor": true
+        },
+        {
+          "label": "NeurIPS25",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICLR26",
+          "firstAuthor": true
+        }
+      ],
+      "additions": [
+        {
+          "label": "ACL25",
+          "firstAuthor": false
+        },
+        {
+          "label": "ACL26",
+          "firstAuthor": false
+        },
+        {
+          "label": "EMNLP Findings26",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "ACL25",
+          "firstAuthor": true
+        },
+        {
+          "label": "NeurIPS25",
+          "firstAuthor": true
+        },
+        {
+          "label": "ACL25",
+          "firstAuthor": false
+        },
+        {
+          "label": "ICLR26",
+          "firstAuthor": true
+        },
+        {
+          "label": "ACL26",
+          "firstAuthor": false
+        },
+        {
+          "label": "EMNLP Findings26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": "ACL25, NeurIPS25, ICLR26",
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "songhan-zhang",
+      "name": "Songhan Zhang",
+      "entryId": "songhan-zhang",
+      "before": [],
+      "additions": [
+        {
+          "label": "FSE26",
+          "firstAuthor": false
+        },
+        {
+          "label": "ISSTA26",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "FSE26",
+          "firstAuthor": false
+        },
+        {
+          "label": "ISSTA26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "qisheng-lu",
+      "name": "Qisheng Lu",
+      "entryId": "qisheng-lu",
+      "before": [],
+      "additions": [
+        {
+          "label": "FSE26",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "FSE26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "haotong-wu",
+      "name": "Haotong Wu",
+      "entryId": "haotong-wu",
+      "before": [],
+      "additions": [
+        {
+          "label": "FSE26",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "FSE26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "manyi-wang",
+      "name": "Manyi Wang",
+      "entryId": "manyi-wang",
+      "before": [],
+      "additions": [
+        {
+          "label": "ASE26",
+          "firstAuthor": true
+        },
+        {
+          "label": "FSE26",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "ASE26",
+          "firstAuthor": true
+        },
+        {
+          "label": "FSE26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "junjielong-xu",
+      "name": "Junjielong Xu",
+      "entryId": "junjielong-xu",
+      "before": [
+        {
+          "label": "ESEC/FSE23",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE24 (×2)",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE25",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICLR25",
+          "firstAuthor": true
+        }
+      ],
+      "additions": [
+        {
+          "label": "EMNLP Findings26",
+          "firstAuthor": true
+        },
+        {
+          "label": "TOSEM26",
+          "firstAuthor": false
+        },
+        {
+          "label": "ASE26",
+          "firstAuthor": false
+        },
+        {
+          "label": "ICML26",
+          "firstAuthor": false
+        },
+        {
+          "label": "ACL26",
+          "firstAuthor": false
+        },
+        {
+          "label": "AAAI26",
+          "firstAuthor": false
+        },
+        {
+          "label": "FSE26",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "ESEC/FSE23",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE24 (×2)",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE25",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICLR25",
+          "firstAuthor": true
+        },
+        {
+          "label": "EMNLP Findings26",
+          "firstAuthor": true
+        },
+        {
+          "label": "TOSEM26",
+          "firstAuthor": false
+        },
+        {
+          "label": "ASE26",
+          "firstAuthor": false
+        },
+        {
+          "label": "ICML26",
+          "firstAuthor": false
+        },
+        {
+          "label": "ACL26",
+          "firstAuthor": false
+        },
+        {
+          "label": "AAAI26",
+          "firstAuthor": false
+        },
+        {
+          "label": "FSE26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": "ESEC/FSE23, ICSE24 (×2), ICSE25, ICLR25",
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "youliang-yuan",
+      "name": "Youliang Yuan",
+      "entryId": "youliang-yuan",
+      "before": [
+        {
+          "label": "ICLR24",
+          "firstAuthor": true
+        },
+        {
+          "label": "COLING24 (Oral)",
+          "firstAuthor": true
+        },
+        {
+          "label": "ACL25",
+          "firstAuthor": true
+        },
+        {
+          "label": "NeurIPS25 (D & B Track)",
+          "firstAuthor": true
+        },
+        {
+          "label": "ACL26",
+          "firstAuthor": true
+        }
+      ],
+      "additions": [
+        {
+          "label": "EMNLP24",
+          "firstAuthor": false
+        },
+        {
+          "label": "EMNLP Findings24",
+          "firstAuthor": false
+        },
+        {
+          "label": "EMNLP25",
+          "firstAuthor": false
+        },
+        {
+          "label": "ACL25 (×2)",
+          "firstAuthor": false
+        },
+        {
+          "label": "ICML26",
+          "firstAuthor": false
+        },
+        {
+          "label": "EMNLP26",
+          "firstAuthor": false
+        },
+        {
+          "label": "ACL26",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "ICLR24",
+          "firstAuthor": true
+        },
+        {
+          "label": "COLING24 (Oral)",
+          "firstAuthor": true
+        },
+        {
+          "label": "EMNLP24",
+          "firstAuthor": false
+        },
+        {
+          "label": "EMNLP Findings24",
+          "firstAuthor": false
+        },
+        {
+          "label": "ACL25",
+          "firstAuthor": true
+        },
+        {
+          "label": "NeurIPS25 (D & B Track)",
+          "firstAuthor": true
+        },
+        {
+          "label": "EMNLP25",
+          "firstAuthor": false
+        },
+        {
+          "label": "ACL25 (×2)",
+          "firstAuthor": false
+        },
+        {
+          "label": "ACL26",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICML26",
+          "firstAuthor": false
+        },
+        {
+          "label": "EMNLP26",
+          "firstAuthor": false
+        },
+        {
+          "label": "ACL26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [
+        "NeurIPS25 Top Reviewer"
+      ],
+      "awardAdditions": [],
+      "awardsAfter": [
+        "NeurIPS25 Top Reviewer"
+      ],
+      "legacyFirstAuthorSummary": "ICLR24, COLING24 (Oral), ACL25, NeurIPS25 (D & B Track), ACL26",
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "boxi-yu",
+      "name": "Boxi Yu",
+      "entryId": "boxi-yu",
+      "before": [
+        {
+          "label": "ISSTA22",
+          "firstAuthor": true
+        },
+        {
+          "label": "ISSTA23",
+          "firstAuthor": true
+        },
+        {
+          "label": "ESEC/FSE23",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE24",
+          "firstAuthor": true
+        },
+        {
+          "label": "ACL25",
+          "firstAuthor": true
+        }
+      ],
+      "additions": [
+        {
+          "label": "ICSE24",
+          "firstAuthor": false
+        },
+        {
+          "label": "ICSE25",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "ISSTA22",
+          "firstAuthor": true
+        },
+        {
+          "label": "ISSTA23",
+          "firstAuthor": true
+        },
+        {
+          "label": "ESEC/FSE23",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE24",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE24",
+          "firstAuthor": false
+        },
+        {
+          "label": "ACL25",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE25",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": "ISSTA22, ISSTA23, ESEC/FSE23, ICSE24, ACL25",
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "ziwen-cai",
+      "name": "Ziwen Cai",
+      "entryId": "ziwen-cai--ziwen-cai-mphil",
+      "before": [],
+      "additions": [
+        {
+          "label": "ISSTA26",
+          "firstAuthor": true
+        }
+      ],
+      "after": [
+        {
+          "label": "ISSTA26",
+          "firstAuthor": true
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "menghan-tian",
+      "name": "Menghan Tian",
+      "entryId": "menghan-tian--menghan-tian-mphil",
+      "before": [],
+      "additions": [
+        {
+          "label": "ASE26",
+          "firstAuthor": true
+        },
+        {
+          "label": "NeurIPS25 (D & B Track)",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "NeurIPS25 (D & B Track)",
+          "firstAuthor": false
+        },
+        {
+          "label": "ASE26",
+          "firstAuthor": true
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "jiaying-li",
+      "name": "Jiaying Li",
+      "entryId": "jiaying-li--jiaying-li-mphil",
+      "before": [],
+      "additions": [
+        {
+          "label": "ICML26",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "ICML26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "sihang-zhao",
+      "name": "Sihang Zhao",
+      "entryId": "sihang-zhao--sihang-zhao-mphil",
+      "before": [],
+      "additions": [
+        {
+          "label": "EMNLP Findings24",
+          "firstAuthor": true
+        },
+        {
+          "label": "CHI Extended Abstracts25",
+          "firstAuthor": true
+        }
+      ],
+      "after": [
+        {
+          "label": "EMNLP Findings24",
+          "firstAuthor": true
+        },
+        {
+          "label": "CHI Extended Abstracts25",
+          "firstAuthor": true
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "ruiyu-zhou",
+      "name": "Ruiyu Zhou",
+      "entryId": "ruiyu-zhou--ruiyu-zhou-mphil",
+      "before": [],
+      "additions": [
+        {
+          "label": "ASE23 (Industry Challenge Track)",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "ASE23 (Industry Challenge Track)",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [
+        "Distinguished Paper Award (ASE23 Industry Challenge Track, First Level)"
+      ],
+      "awardsAfter": [
+        "Distinguished Paper Award (ASE23 Industry Challenge Track, First Level)"
+      ],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "boyin-tan",
+      "name": "Boyin Tan",
+      "entryId": "boyin-tan--boyin-tan-mair",
+      "before": [],
+      "additions": [
+        {
+          "label": "TOSEM26",
+          "firstAuthor": true
+        },
+        {
+          "label": "EMNLP Findings26",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "TOSEM26",
+          "firstAuthor": true
+        },
+        {
+          "label": "EMNLP Findings26",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "yidan-wang",
+      "name": "Yidan Wang",
+      "entryId": "yidan-wang--yidan-wang-mair",
+      "before": [],
+      "additions": [
+        {
+          "label": "ASE24",
+          "firstAuthor": true
+        }
+      ],
+      "after": [
+        {
+          "label": "ASE24",
+          "firstAuthor": true
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    },
+    {
+      "id": "haowen-yang",
+      "name": "Haowen Yang",
+      "entryId": "haowen-yang--haowen-yang-mphil",
+      "before": [],
+      "additions": [
+        {
+          "label": "FSE25",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE25",
+          "firstAuthor": false
+        }
+      ],
+      "after": [
+        {
+          "label": "FSE25",
+          "firstAuthor": true
+        },
+        {
+          "label": "ICSE25",
+          "firstAuthor": false
+        }
+      ],
+      "awardsBefore": [],
+      "awardAdditions": [],
+      "awardsAfter": [],
+      "legacyFirstAuthorSummary": null,
+      "hiddenHistoricalEntryId": null
+    }
+  ]
+}

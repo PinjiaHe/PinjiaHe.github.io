@@ -1,0 +1,376 @@
+{
+  "confirmedOn": "2026-09-29",
+  "source": "Owner browser comments 1–36; scope clarification: author notation and publication order only",
+  "scope": "Approved author-notation snapshot; production content remains in publication Markdown files",
+  "ordering": {
+    "comment": 13,
+    "year": "descending",
+    "venueGroups": "first appearance in existing year/order sequence",
+    "withinVenue": "preserve existing stable order",
+    "track": "does not split a venue"
+  },
+  "changes": [
+    {
+      "id": "swe-abs-2026",
+      "comments": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "supervised": [
+        "Boxi Yu",
+        "Junjielong Xu",
+        "Zhiqing Zhong"
+      ],
+      "coFirst": [
+        "Boxi Yu",
+        "Yang Cao"
+      ]
+    },
+    {
+      "id": "semantic-router-2026",
+      "comments": [
+        5
+      ],
+      "supervised": [
+        "Changyue Li",
+        "Jiaying Li",
+        "Youliang Yuan"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "scalable-supervision-2026",
+      "comments": [
+        6
+      ],
+      "supervised": [
+        "Junjielong Xu",
+        "Boyin Tan",
+        "Xiaoyuan Liu"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "pasbench-video-2026",
+      "comments": [
+        7
+      ],
+      "supervised": [
+        "Yusong Zhao",
+        "Youliang Yuan"
+      ],
+      "coFirst": [
+        "Yusong Zhao",
+        "Yuejin Xie"
+      ]
+    },
+    {
+      "id": "orthcoder-2026",
+      "comments": [
+        8
+      ],
+      "supervised": [
+        "Menghan Tian",
+        "Youliang Yuan",
+        "Zhiqing Zhong"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "paichecker-2026",
+      "comments": [
+        9
+      ],
+      "supervised": [
+        "Manyi Wang",
+        "Junjielong Xu"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "backportbench-2026",
+      "comments": [
+        10
+      ],
+      "supervised": [
+        "Zhiqing Zhong",
+        "Jiaming Huang"
+      ],
+      "coFirst": [
+        "Zhiqing Zhong",
+        "Jiaming Huang"
+      ]
+    },
+    {
+      "id": "rca-fault-propagation-2026",
+      "comments": [
+        11
+      ],
+      "supervised": [
+        "Aoyang Fang",
+        "Songhan Zhang",
+        "Yifan Yang",
+        "Haotong Wu",
+        "Junjielong Xu",
+        "Xuyang Wang",
+        "Rui Wang",
+        "Manyi Wang",
+        "Qisheng Lu"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "rubric-rewards-2026",
+      "comments": [
+        12
+      ],
+      "supervised": [
+        "Youliang Yuan",
+        "Qiuyang Mang",
+        "Xiaoyuan Liu",
+        "Junjielong Xu"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "graph-cutting-2025",
+      "comments": [
+        14
+      ],
+      "supervised": [
+        "Qiuyang Mang"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "data-science-performance-bugs-2025",
+      "comments": [
+        15
+      ],
+      "supervised": [
+        "Haowen Yang",
+        "Zhengda Li",
+        "Zhiqing Zhong"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "decoupled-refusal-2025",
+      "comments": [
+        16
+      ],
+      "supervised": [
+        "Youliang Yuan"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "insight-over-sight-2025",
+      "comments": [
+        17,
+        18
+      ],
+      "supervised": [
+        "Xiaoyuan Liu",
+        "Youliang Yuan"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "toolsafety-2025",
+      "comments": [
+        19
+      ],
+      "supervised": [
+        "Yuejin Xie",
+        "Youliang Yuan"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "aligned-program-repair-2025",
+      "comments": [
+        20
+      ],
+      "supervised": [
+        "Junjielong Xu",
+        "Ying Fu"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "self-verification-2025",
+      "comments": [
+        21
+      ],
+      "supervised": [
+        "Xiaoyuan Liu"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "proactive-risk-awareness-2025",
+      "comments": [
+        22
+      ],
+      "supervised": [
+        "Youliang Yuan",
+        "Yuejin Xie",
+        "Chihao Shen",
+        "Menghan Tian"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "unilog-2024",
+      "comments": [
+        23
+      ],
+      "supervised": [
+        "Junjielong Xu"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "log-anomaly-comparison-2024",
+      "comments": [
+        24
+      ],
+      "supervised": [
+        "Boxi Yu",
+        "Jiayi Yao",
+        "Zhiqing Zhong",
+        "Haotian Xie"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "divlog-2024",
+      "comments": [
+        25
+      ],
+      "supervised": [
+        "Junjielong Xu",
+        "Ruichun Yang"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "multimodal-laziness-2024",
+      "comments": [
+        26
+      ],
+      "supervised": [
+        "Sihang Zhao",
+        "Youliang Yuan"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "numeric-log-compression-2024",
+      "comments": [
+        27
+      ],
+      "supervised": [
+        "Siyu Yu"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "mrca-2024",
+      "comments": [
+        28
+      ],
+      "supervised": [
+        "Yidan Wang",
+        "Zhouruixing Zhu"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "rome-2023",
+      "comments": [
+        29
+      ],
+      "supervised": [
+        "Boxi Yu",
+        "Zhiqing Zhong",
+        "Jiaqi Li",
+        "Yixing Yang"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "hue-2023",
+      "comments": [
+        30
+      ],
+      "supervised": [
+        "Junjielong Xu",
+        "Zhouruixing Zhu",
+        "Zhijing Li"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "ner-testing-2023",
+      "comments": [
+        31
+      ],
+      "supervised": [
+        "Boxi Yu",
+        "Yiyan Hu",
+        "Qiuyang Mang",
+        "Wenhan Hu"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "image-captioning-testing-2022",
+      "comments": [
+        32
+      ],
+      "supervised": [
+        "Boxi Yu",
+        "Zhiqing Zhong",
+        "Jiayi Yao",
+        "Yuancheng Wang"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "pathological-invariance-2020",
+      "comments": [
+        33,
+        35
+      ],
+      "supervised": [
+        "Shashij Gupta",
+        "Clara Meister"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "structure-invariant-translation-2020",
+      "comments": [
+        34
+      ],
+      "supervised": [
+        "Clara Meister"
+      ],
+      "coFirst": []
+    },
+    {
+      "id": "referential-transparency-2021",
+      "comments": [
+        36
+      ],
+      "supervised": [
+        "Clara Meister"
+      ],
+      "coFirst": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+id: tips-on-writing-a-research-paper
+visibility: public
+order: 30
+title: Tips on Writing a Research Paper
+author: Thomas Reps
+url: https://www.pldi21.org/prerecorded_plmw.2.html
+lang: en
+tags:
+  - writing
+  - research
+recommendation: A talk from the Programming Language Mentoring Workshop at PLDI 2021.
+sources:
+  - https://pinjiahe.github.io/team/
+  - https://www.pldi21.org/prerecorded_plmw.2.html
+sourceSnapshotDate: "2026-09-27"

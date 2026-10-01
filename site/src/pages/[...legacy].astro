@@ -1,0 +1,15 @@
+---
+import { legacyRedirects, renderLegacyRedirect } from '../data/legacy-redirects';
+
+export function getStaticPaths() {
+  return Object.entries(legacyRedirects)
+    .filter(([pathname]) => pathname.endsWith('/'))
+    .map(([pathname, target]) => ({
+      params: { legacy: pathname.slice(1, -1) },
+      props: { target },
+    }));
+}
+
+const isPublicBuild = import.meta.env.PROD && import.meta.env.PUBLIC_SITE_MODE === 'production';
+---
+<Fragment set:html={renderLegacyRedirect(Astro.props.target, isPublicBuild)} />

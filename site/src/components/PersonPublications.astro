@@ -1,0 +1,5 @@
+---
+interface Props { papers: {label:string; firstAuthor:boolean; url?:string}[]; label?:string; }
+const {papers,label='Publications'} = Astro.props;
+---
+{papers.length > 0 && <p class="person-detail person-publications"><span class="field-label">{label}</span>{papers.map((paper,index) => <>{index > 0 && ', '}<span class:list={{'first-author-publication':paper.firstAuthor}}>{paper.url ? <a href={paper.url}>{paper.label}</a> : paper.label}</span></>)}</p>}

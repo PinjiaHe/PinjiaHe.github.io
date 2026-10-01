@@ -1,0 +1,23 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import AwardBadge from './AwardBadge.astro';
+import CompanyLogo from './CompanyLogo.astro';
+import MetricBadge from './MetricBadge.astro';
+import {site} from '../lib/data';
+interface Props { publication: CollectionEntry<'publications'>; }
+const {data:p} = Astro.props.publication;
+const showTrack = p.track && !['research track', 'long papers'].includes(p.track.toLowerCase());
+const projects = await getCollection('projects', ({data}) => data.visibility === 'public' && data.publicationIds.includes(p.id));
+const industryUses = projects.flatMap(project => project.data.evidence.filter(evidence => evidence.kind === 'industry-use'));
+const githubStars = projects.find(project => project.data.githubStars?.sourceUrl === p.links.artifact)?.data.githubStars;
+---
+<article class="publication-entry" id={p.id}>
+  <div class="publication-venue">{p.venue} <span>{p.year}</span>{showTrack && <small>{p.track}</small>}</div>
+  <div>
+    <h3>{p.title}</h3>
+    <p class="authors">{p.authors.map((author,index) => <>{index > 0 && ', '}<span class:list={{'supervised-author': author.supervised}} title={author.supervised ? 'Supervised student' : undefined}>{author.authorId === site.personId ? <strong>{author.name}</strong> : author.name}</span>{author.contribution === 'co-first' && <sup title="Equal contribution">+</sup>}</>)}.</p>
+    {p.awards.length > 0 && <div class="awards">{p.awards.map(award => <AwardBadge label={award.label} />)}</div>}
+    {industryUses.length > 0 && <div class="publication-uses">{industryUses.map(evidence => evidence.organizations?.length ? <span class="industry-use-badge"><span>Used by</span>{evidence.organizations.map((organization,index) => <>{index > 0 && <span>and</span>}<a href={organization.sourceUrl}>{organization.logo && <CompanyLogo name={organization.logo} />}{organization.name}</a></>)}</span> : <a class="industry-use-badge" href={evidence.sourceUrl}>{evidence.label}</a>)}</div>}
+    <div class="publication-links">{Object.entries(p.links).map(([label,href]) => <a href={href}>{label}</a>)}{p.citations && <MetricBadge kind="scholar" {...p.citations} subject={p.title} />}{githubStars && <MetricBadge kind="github" {...githubStars} subject={p.title} />}{p.publicationStatus !== 'published' && <span>{p.publicationStatus}</span>}</div>
+  </div>
+</article>

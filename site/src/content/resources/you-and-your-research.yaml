@@ -1,0 +1,14 @@
+id: you-and-your-research
+visibility: public
+order: 10
+title: You and Your Research
+author: Richard Hamming
+url: https://www.cs.virginia.edu/~robins/YouAndYourResearch.html
+lang: en
+tags:
+  - research
+recommendation: A transcript of Hamming's 1986 talk on choosing and doing research.
+sources:
+  - https://pinjiahe.github.io/team/
+  - https://www.cs.virginia.edu/~robins/YouAndYourResearch.html
+sourceSnapshotDate: "2026-09-27"

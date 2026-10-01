@@ -1,0 +1,82 @@
+---
+import {getEntry, render} from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const page = (await getEntry('pages', 'join'))!;
+const {Content} = await render(page);
+---
+<Layout title={page.data.title} description={page.data.description}>
+  <div class="container apply-page">
+    <a class="back-link" href="/lab/">Our Lab</a>
+    <header class="apply-header">
+      <h1>{page.data.title}</h1>
+    </header>
+    <article class="apply-body"><Content /></article>
+  </div>
+</Layout>
+
+<style>
+  .apply-page {
+    max-width:680px;
+    padding-bottom:72px;
+  }
+  .apply-header {
+    padding:28px 0 30px;
+    border-bottom:1px solid var(--rule);
+  }
+  .apply-header h1 {
+    font-family:var(--sans);
+    font-size:42px;
+    line-height:1.15;
+    letter-spacing:-.03em;
+  }
+  .apply-body {
+    margin-top:32px;
+    font-family:var(--serif);
+    font-size:18px;
+    line-height:1.8;
+    overflow-wrap:break-word;
+  }
+  .apply-body :global(h2) {
+    margin:0 0 18px;
+    font-family:var(--sans);
+    font-size:23px;
+    font-weight:600;
+    line-height:1.35;
+    letter-spacing:-.02em;
+  }
+  .apply-body :global(p + p) {
+    margin-top:20px;
+  }
+  .apply-body :global(p + h2) {
+    margin-top:40px;
+    padding-top:32px;
+    border-top:1px solid var(--rule);
+  }
+  .apply-body :global(strong) {
+    font-weight:700;
+  }
+  @media (max-width:767px) {
+    .apply-page {
+      padding-bottom:48px;
+    }
+    .apply-header {
+      padding:24px 0;
+    }
+    .apply-header h1 {
+      font-size:36px;
+    }
+    .apply-body {
+      margin-top:28px;
+      font-size:17px;
+      line-height:1.8;
+    }
+    .apply-body :global(h2) {
+      font-size:21px;
+    }
+    .apply-body :global(p + h2) {
+      margin-top:32px;
+      padding-top:28px;
+    }
+  }
+</style>

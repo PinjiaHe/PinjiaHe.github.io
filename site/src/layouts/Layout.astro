@@ -1,0 +1,18 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { site } from '../lib/data';
+import '../styles/tokens.css';
+import '../styles/global.css';
+interface Props { title: string; description: string; lang?: string; }
+const {title, description, lang = 'en'} = Astro.props;
+const isPublicBuild = import.meta.env.PROD && import.meta.env.PUBLIC_SITE_MODE === 'production';
+const isNotFound = /^\/404(?:\.html|\/)?$/.test(Astro.url.pathname);
+const canIndex = isPublicBuild && !isNotFound;
+const canonical = canIndex ? new URL(Astro.url.pathname, Astro.site) : undefined;
+---
+<!doctype html>
+<html lang={lang}>
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content={description} /><meta name="robots" content={canIndex ? 'index, follow' : 'noindex, nofollow'} />{canonical && <link rel="canonical" href={canonical} />}<meta name="theme-color" content="#ffffff" /><title>{title === site.name ? `${site.name} — Software Engineering × AI` : `${title} — ${site.name}`}</title><link rel="icon" href="/favicon.svg" type="image/svg+xml" /></head>
+  <body id="top"><SiteHeader /><main id="main"><slot /></main><SiteFooter /></body>
+</html>

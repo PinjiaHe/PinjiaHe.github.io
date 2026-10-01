@@ -1,0 +1,15 @@
+id: how-to-read-a-paper
+visibility: public
+order: 20
+title: How to Read a Paper
+author: S. Keshav
+url: https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
+lang: en
+tags:
+  - reading
+  - research
+recommendation: A three-pass approach to reading research papers and building a literature survey.
+sources:
+  - https://pinjiahe.github.io/team/
+  - https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
+sourceSnapshotDate: "2026-09-27"

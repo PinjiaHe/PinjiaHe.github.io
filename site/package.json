@@ -1,0 +1,33 @@
+{
+  "name": "pinjia-homepage-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --host 127.0.0.1",
+    "dev:drafts": "SHOW_DRAFTS=1 ASTRO_TELEMETRY_DISABLED=1 astro dev --host 127.0.0.1",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check && node scripts/check-content.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/check-content.mjs && ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "build:production": "PUBLIC_SITE_MODE=production npm run build",
+    "prepare:legacy-assets": "node scripts/prepare-legacy-assets.mjs",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host 127.0.0.1",
+    "check:links": "node scripts/check-links.mjs",
+    "check:links:production": "node scripts/check-links.mjs --production",
+    "test:browser": "node scripts/browser-check.mjs",
+    "dev:stop": "ASTRO_TELEMETRY_DISABLED=1 astro dev stop",
+    "preview:stop": "ASTRO_TELEMETRY_DISABLED=1 astro preview stop"
+  },
+  "dependencies": {
+    "astro": "7.3.5",
+    "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "playwright": "1.63.0",
+    "typescript": "6.0.3"
+  }
+}

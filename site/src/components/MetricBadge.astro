@@ -1,0 +1,19 @@
+---
+import AcademicIcon from './AcademicIcon.astro';
+interface Props {
+  kind: 'github' | 'scholar';
+  sourceUrl: string;
+  count?: number;
+  retrievedAt?: string;
+  estimated?: boolean;
+  subject: string;
+}
+const {kind, sourceUrl, count, retrievedAt, estimated = false, subject} = Astro.props;
+const label = kind === 'github' ? 'Stars' : '';
+const value = count?.toLocaleString('en-US');
+const description = `${subject}: ${value === undefined ? 'view' : value} ${kind === 'github' ? 'GitHub stars' : 'Google Scholar citations'}${value !== undefined && retrievedAt ? ` · retrieved ${retrievedAt}` : ''}${estimated ? '. Google Scholar marks this count as estimated; it may include citations that do not match the article.' : ''}`;
+---
+<a class="metric-badge" href={sourceUrl} title={description} aria-label={description}>
+  <span class="metric-label"><AcademicIcon name={kind} />{label}</span>
+  {value !== undefined && <span class="metric-value">{value}</span>}
+</a>

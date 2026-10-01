@@ -1,0 +1,35 @@
+---
+interface Props {
+  name: 'anthropic' | 'microsoft';
+  class?: string;
+}
+
+const { name, class: className } = Astro.props;
+
+// Unchanged Simple Icons v11.15.0 paths (CC0); see docs/company-logo-sources.md.
+// Keep the company name in adjacent text or in the enclosing link's aria-label.
+const paths = {
+  anthropic: 'M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z',
+  microsoft: 'M0 0v11.408h11.408V0zm12.594 0v11.408H24V0zM0 12.594V24h11.408V12.594zm12.594 0V24H24V12.594z',
+};
+---
+
+<svg
+  class:list={['company-logo', `company-logo--${name}`, className]}
+  width={name === 'anthropic' ? 17 : 12}
+  height="12"
+  viewBox={name === 'anthropic' ? '0 3.5409 24 16.9182' : '0 0 24 24'}
+  aria-hidden="true"
+  focusable="false"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path fill="currentColor" d={paths[name]} />
+</svg>
+
+<style>
+  .company-logo {
+    display: inline-block;
+    flex: none;
+    vertical-align: middle;
+  }
+</style>

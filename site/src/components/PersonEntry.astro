@@ -1,0 +1,43 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { activeMembership, lastMembership, publicationSummaries } from '../lib/people';
+import PersonPublications from './PersonPublications.astro';
+interface Props { person:CollectionEntry<'people'>; publications:CollectionEntry<'publications'>[]; compact?:boolean; membershipId?:string; }
+const {person,publications,compact=false,membershipId} = Astro.props;
+const p = person.data;
+const active = activeMembership(p);
+const selected = membershipId ? p.memberships.find(m => m.id === membershipId) : undefined;
+if (membershipId && !selected) throw new Error(`Unknown membership ${membershipId} for ${p.id}`);
+const primary = selected ?? active ?? lastMembership(p);
+const showRole = !compact || !!selected || primary.role === 'postdoc';
+const labels:Record<string,string> = {phd:'PhD',mphil:'MPhil',msc:'MSc',masters:"MPhil / Master's student",ra:'Research assistant',undergraduate:'Undergraduate intern',postdoc:'Postdoc',visitor:'Visitor',other:'Researcher'};
+const period = (m: typeof primary) => [m.start, m.status === 'active' ? 'present' : m.end].filter(Boolean).join(' – ');
+const showAchievements = !selected || !active;
+const papers = showAchievements ? publicationSummaries(p, publications.map(p => p.data)) : [];
+const notes = selected ? [] : [
+  ...(compact && !showRole && period(primary) ? [period(primary)] : []),
+  ...(p.previously === false ? [] : p.previously ? [`Previously: ${p.previously}`] : p.memberships.filter(m => m.id !== primary.id).map(m => `${m.status === 'active' ? 'Additional current role:' : 'Previously:'} ${m.label ?? labels[m.role]}${period(m) ? ` · ${period(m)}` : ''}`)),
+  ...(primary.supervisors?.length ? [`Co-supervised by ${primary.supervisors.join(' and ')}`] : []),
+  ...p.notes,
+];
+---
+<article class:list={['person-entry',{'person-entry-compact':compact}]} id={selected ? `${p.id}--${selected.id}` : p.id} data-person-id={p.id}>
+  {!compact && !selected && p.photo && <img class="person-photo" src={p.photo} alt={p.photoAlt ?? p.name} width="72" height="72" loading="lazy" />}
+  <div class="person-content">
+    <h3>{p.website ? <a href={p.website}>{p.name}</a> : p.name}</h3>
+    {showRole && <p class="person-role">{primary.label ?? labels[primary.role]}{period(primary) && ` · ${period(primary)}`}</p>}
+    {!selected && (!compact || p.entryStyle === 'full') && p.education.length > 0 && <ul class="education">{p.education.map(e => <li>
+      {[e.degree,e.program,e.institution].filter(Boolean).join(', ')}{e.period && ` (${e.period})`}
+      {e.rank && <span class="education-rank">{e.rank.display} · {e.rank.scope}{e.rank.asOf && ` · ${e.rank.asOf}`}</span>}
+      {(e.details?.length > 0 || e.publicationSummary?.length > 0) && <ul class="education-details" role="list">
+        {e.publicationSummary?.length > 0 && <li>Publications: {e.publicationSummary.map((paper,index) => <>{index > 0 && ', '}<span class:list={{'first-author-publication':paper.firstAuthor}}>{paper.url ? <a href={paper.url}>{paper.label}</a> : paper.label}</span></>)}</li>}
+        {e.details?.map(detail => <li>{detail}</li>)}
+      </ul>}
+    </li>)}</ul>}
+    <PersonPublications papers={papers}/>
+    {showAchievements && p.awards.length > 0 && <p class="person-detail"><span class="field-label">Awards</span><span class="person-detail-values">{p.awards.map(award => <span class="person-detail-item">{award}</span>)}</span></p>}
+    {!selected && p.visits.length > 0 && <p class="person-detail"><span class="field-label">Visits</span>{p.visits.join('; ')}</p>}
+    {(selected ? primary.status === 'completed' : !active) && primary.nextStep && <p class="next-step"><span class="field-label">Next</span>{primary.nextStep.label}{primary.nextStep.status === 'offer' && ' (offer)'}</p>}
+    {notes.length > 0 && <p class="person-detail person-notes"><span class="field-label">Notes</span>{notes.join('; ')}</p>}
+  </div>
+</article>

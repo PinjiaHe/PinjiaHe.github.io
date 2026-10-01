@@ -1,0 +1,9 @@
+---
+import {getCollection} from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import ResourceEntry from '../../components/ResourceEntry.astro';
+import {showDrafts} from '../../lib/data';
+const resources = (await getCollection('resources',({data})=>data.visibility==='public')).sort((a,b)=>a.data.order-b.data.order);
+const notes = (await getCollection('notes',({data})=>data.visibility==='public'||showDrafts)).sort((a,b)=>b.data.date.localeCompare(a.data.date));
+---
+<Layout title="Notes & Resources" description="Recommended reading for research students and a space for original notes."><div class="container notes-page"><header class="page-hero"><p class="eyebrow">Reading & writing</p><h1>Notes & Resources</h1><p>A place for research notes and useful reading.</p></header><section class="notes-articles"><h2>Articles</h2>{notes.length===0 ? <p class="empty-state">No original articles published yet.</p> : notes.map(note=><article class="resource-entry"><p class="eyebrow">{note.data.visibility==='draft' ? 'Local draft · Test fixture' : 'Article'} · {note.data.lang}</p><h3><a href={`/notes/${note.data.slug}/`}>{note.data.title}</a></h3><p>{note.data.summary}</p><p class="resource-author">{note.data.author} · {note.data.date}</p></article>)}</section><section class="section"><div class="section-heading"><div><h2>Recommended Reading</h2></div></div><div class="resource-grid">{resources.map(resource=><ResourceEntry resource={resource}/>)}</div><p class="section-note">External resources open at their original source and are credited to their authors.</p></section></div></Layout>

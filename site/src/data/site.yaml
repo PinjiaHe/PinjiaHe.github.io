@@ -1,0 +1,25 @@
+name: Pinjia He
+personId: pinjia-he
+role: Associate Professor
+affiliation: The Chinese University of Hong Kong, Shenzhen
+distinction: 国家级青年人才
+secondaryRole: Assistant Dean (Research), School of Data Science
+email: hepinjia@cuhk.edu.cn
+defaultLanguage: en
+photo: /images/pinjia-he.jpg
+photoAlt: Pinjia He
+photoWidth: 898
+photoHeight: 1024
+links:
+  Google Scholar: https://scholar.google.com/citations?user=vg0moI0AAAAJ&hl=en
+  GitHub: https://github.com/PinjiaHe
+  DBLP: https://dblp.org/pers/hd/h/He%3APinjia
+  X: https://twitter.com/PinjiaHE
+  LinkedIn: https://www.linkedin.com/in/pinjia-he-507a3279/
+legacyLinks:
+  Teaching: https://pinjiahe.github.io/teaching/
+  Services: https://pinjiahe.github.io/services/
+  CV: https://pinjiahe.github.io/files/pdf/CV.pdf
+prototypeLabel: Prototype / Partial content
+contentNotice: A small, verified selection from the original website. This preview is not a complete record of the lab or its publications.
+contactText: For research enquiries, please get in touch by email.

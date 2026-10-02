@@ -1,6 +1,7 @@
 ---
 id: yuejin-xie
 name: Yuejin Xie
+website: https://tarfersoul.github.io/
 visibility: public
 order: 41
 entryStyle: compact
@@ -28,5 +29,5 @@ sources:
   - https://pinjiahe.github.io/team/
   - https://pinjiahe.github.io/publications/
   - https://papers.nips.cc/paper_files/paper/2025/file/0a7872c9d3ce6792d033d3b0d044ba8a-Paper-Datasets_and_Benchmarks_Track.pdf
-sourceSnapshotDate: "2026-09-30"
+sourceSnapshotDate: "2026-10-02"
 ---

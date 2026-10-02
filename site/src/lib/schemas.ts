@@ -29,6 +29,7 @@ const membership = z.object({
 .refine((m) => m.alumniOrder === undefined || m.status === 'completed', {message: 'An alumni entry must use a completed membership', path: ['alumniOrder']});
 export const personSchema = z.object({
   ...common, name: text, website: url.optional(), photo: text.optional(), photoAlt: text.optional(), memberships: z.array(membership).min(1),
+  currentPosition: z.object({label: text, asOf: partialDate}).optional(),
   education: z.array(z.object({institution: text, degree: text.optional(), program: text.optional(), period: text.optional(), details: z.array(text).default([]), publicationSummary: z.array(publicationSummaryItem).default([]), rank: z.object({display: text, scope: text, asOf: partialDate.optional(), source: text.optional()}).optional()})).default([]),
   publicationDisplay: z.enum(['linked-first-author','linked','legacy-summary','source-summary']), legacyFirstAuthorSummary: text.optional(),
   publicationSummary: z.array(publicationSummaryItem).default([]),

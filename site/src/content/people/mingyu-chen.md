@@ -1,6 +1,7 @@
 ---
 id: mingyu-chen
 name: Mingyu Chen
+website: https://cmy-k.github.io/
 visibility: public
 order: 110
 memberships:
@@ -20,5 +21,5 @@ education:
 publicationDisplay: linked-first-author
 sources:
   - owner-provided
-sourceSnapshotDate: "2026-09-29"
+sourceSnapshotDate: "2026-10-02"
 ---

@@ -1,6 +1,7 @@
 ---
 id: yichen-guo
 name: Yichen Guo
+website: https://yichenguo0904.com/
 visibility: public
 order: 140
 memberships:
@@ -16,5 +17,5 @@ education:
 publicationDisplay: linked-first-author
 sources:
   - owner-provided
-sourceSnapshotDate: "2026-09-29"
+sourceSnapshotDate: "2026-10-02"
 ---

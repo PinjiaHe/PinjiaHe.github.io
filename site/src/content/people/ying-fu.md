@@ -1,6 +1,7 @@
 ---
 id: ying-fu
 name: Ying Fu
+website: https://faculty.swjtu.edu.cn/fuying12/en/index.htm
 visibility: public
 order: 20
 entryStyle: compact
@@ -24,5 +25,5 @@ publicationDisplay: linked-first-author
 sources:
   - https://pinjiahe.github.io/team/
   - owner-provided
-sourceSnapshotDate: "2026-09-29"
+sourceSnapshotDate: "2026-10-02"
 ---

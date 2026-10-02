@@ -1,6 +1,7 @@
 ---
 id: sihang-zhao
 name: Sihang Zhao
+website: https://akutagawa1998.github.io/
 visibility: public
 order: 330
 entryStyle: compact
@@ -24,5 +25,5 @@ publicationSummary:
     firstAuthor: true
 sources:
   - owner-provided
-sourceSnapshotDate: "2026-09-30"
+sourceSnapshotDate: "2026-10-02"
 ---

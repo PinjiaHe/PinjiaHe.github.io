@@ -1,6 +1,7 @@
 ---
 id: clara-meister
 name: Clara Meister
+website: https://cimeister.github.io/
 visibility: public
 order: 53
 entryStyle: compact
@@ -26,7 +27,8 @@ publicationSummary:
   - label: ICSE21
     firstAuthor: false
 sources:
+  - owner-provided
   - https://pinjiahe.github.io/team/
   - https://pinjiahe.github.io/publications/
-sourceSnapshotDate: "2026-09-28"
+sourceSnapshotDate: "2026-10-02"
 ---

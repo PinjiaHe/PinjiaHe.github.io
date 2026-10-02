@@ -1,6 +1,7 @@
 ---
 id: siyu-yu
 name: Siyu Yu
+website: https://gaiusyu.github.io/homepage/
 visibility: public
 order: 44
 entryStyle: compact
@@ -21,5 +22,5 @@ publicationSummary:
 sources:
   - owner-provided
   - https://pinjiahe.github.io/team/
-sourceSnapshotDate: "2026-09-30"
+sourceSnapshotDate: "2026-10-02"
 ---

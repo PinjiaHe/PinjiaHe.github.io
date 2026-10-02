@@ -82,6 +82,19 @@ test('multiple active memberships require exactly one primary identity', () => {
   assert.equal(activeMembership(record)?.id, 'test-visitor');
 });
 
+test('a dated current position preserves the historical next step and alumni status', () => {
+  const memberships = [{id:'test-visit',role:'visitor',status:'completed',
+    nextStep:{kind:'academia',status:'reported',label:'Researcher, Synthetic University'}}];
+  const currentPosition = {label:'Professor, Another Synthetic University',asOf:'2026-10-02'};
+  const record = person({memberships,currentPosition});
+  assert.equal(activeMembership(record),undefined);
+  assert.equal(record.memberships[0].nextStep.label,'Researcher, Synthetic University');
+  assert.deepEqual(record.currentPosition,currentPosition);
+  assert.equal(person({memberships}).currentPosition,undefined);
+  assert.throws(()=>person({memberships,currentPosition:{label:currentPosition.label}}));
+  assert.throws(()=>person({memberships,currentPosition:{...currentPosition,asOf:'2026-02-30'}}));
+});
+
 test('a historical rank requires a meaningful scope and nonempty display', () => {
   const education = rank => [{ institution: 'Synthetic University', rank }];
   assert.throws(() => person({ education: education({ display: 'Class rank: 3/120' }) }));

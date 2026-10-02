@@ -1,6 +1,7 @@
 ---
 id: boyin-tan
 name: Boyin Tan
+website: https://www.boyintan.com/
 visibility: public
 order: 350
 entryStyle: compact
@@ -25,5 +26,5 @@ publicationSummary:
     firstAuthor: false
 sources:
   - owner-provided
-sourceSnapshotDate: "2026-09-30"
+sourceSnapshotDate: "2026-10-02"
 ---

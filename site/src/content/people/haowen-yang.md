@@ -1,6 +1,7 @@
 ---
 id: haowen-yang
 name: Haowen Yang
+website: https://haowenyoung.github.io/
 visibility: public
 order: 390
 entryStyle: compact
@@ -24,5 +25,5 @@ publicationSummary:
     firstAuthor: false
 sources:
   - owner-provided
-sourceSnapshotDate: "2026-09-30"
+sourceSnapshotDate: "2026-10-02"
 ---

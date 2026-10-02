@@ -38,6 +38,7 @@ const notes = selected ? [] : [
     {showAchievements && p.awards.length > 0 && <p class="person-detail"><span class="field-label">Awards</span><span class="person-detail-values">{p.awards.map(award => <span class="person-detail-item">{award}</span>)}</span></p>}
     {!selected && p.visits.length > 0 && <p class="person-detail"><span class="field-label">Visits</span>{p.visits.join('; ')}</p>}
     {(selected ? primary.status === 'completed' : !active) && primary.nextStep && <p class="next-step"><span class="field-label">Next</span>{primary.nextStep.label}{primary.nextStep.status === 'offer' && ' (offer)'}</p>}
+    {showAchievements && p.currentPosition && <p class="next-step current-position"><span class="field-label">Current</span>{p.currentPosition.label}</p>}
     {notes.length > 0 && <p class="person-detail person-notes"><span class="field-label">Notes</span>{notes.join('; ')}</p>}
   </div>
 </article>

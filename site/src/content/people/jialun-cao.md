@@ -1,9 +1,13 @@
 ---
 id: jialun-cao
 name: Jialun Cao
+website: https://jialuncao.github.io/
 visibility: public
 order: 10
 entryStyle: compact
+currentPosition:
+  label: "Assistant Professor, Imperial College London"
+  asOf: "2026-10-02"
 memberships:
   - id: jialun-cao-visitor
     role: visitor
@@ -24,5 +28,5 @@ publicationDisplay: linked-first-author
 sources:
   - https://pinjiahe.github.io/team/
   - owner-provided
-sourceSnapshotDate: "2026-09-29"
+sourceSnapshotDate: "2026-10-02"
 ---

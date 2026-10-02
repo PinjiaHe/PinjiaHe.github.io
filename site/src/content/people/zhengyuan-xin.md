@@ -12,6 +12,8 @@ memberships:
       - Guangxu Zhu
       - Pinjia He
 education:
+  - institution: Shandong University of Finance and Economics
+    degree: B.S.
   - institution: CUHK-Shenzhen
     degree: M.S.
     publicationSummary:
@@ -19,5 +21,5 @@ education:
 publicationDisplay: linked-first-author
 sources:
   - owner-provided
-sourceSnapshotDate: "2026-09-29"
+sourceSnapshotDate: "2026-10-02"
 ---

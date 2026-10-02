@@ -5,3 +5,5 @@ dist/
 .env.*
 .DS_Store
 /README.local.md
+/scripts/browser-check.local.mjs
+/src/data/source-ledger.yaml

@@ -37,6 +37,5 @@ sources:
   - https://pinjiahe.github.io/files/pdf/research/ISSRE16.pdf
   - https://github.com/logpai/loglizer
   - https://cyprusconferences.org/issre2026/program/
-  - "Owner-confirmed Test of Time Award, 2026-09-28 Publications feedback"
 sourceSnapshotDate: "2026-09-28"
 ---

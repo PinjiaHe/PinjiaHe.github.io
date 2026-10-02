@@ -4,3 +4,10 @@ images/posts/*.pdf
 images/posts/*.sty
 _source/*_cache
 .Rproj.user
+
+# Local notes and review artifacts
+/README.local.md
+/AGENTS.md
+/CODEX_START.md
+/docs/*
+!/docs/DEPLOYMENT.md

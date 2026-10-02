@@ -56,6 +56,6 @@ export const pageSchema = z.object({
   pillars: z.array(z.object({id:stableId, title:text, description:text})).default([]),
   mission: text.optional(), joinTitle:text.optional(), joinText:text.optional(), contactText:text.optional(), labSummary:text.optional(), undergraduateNote:text.optional()
 });
-export const siteSchema = z.object({name:text, personId:stableId, role:text, affiliation:text, distinction:text.optional(), secondaryRole:text, email:z.email(), defaultLanguage:text, photo:text, photoAlt:text, photoWidth:z.number(), photoHeight:z.number(), links, legacyLinks:links, prototypeLabel:text, contentNotice:text, contactText:text});
+export const siteSchema = z.object({name:text, personId:stableId, role:text, affiliation:text, distinction:text.optional(), secondaryRole:text, email:z.email(), defaultLanguage:text, photo:text, photoAlt:text, photoWidth:z.number(), photoHeight:z.number(), links, legacyLinks:links, contactText:text});
 export const homeSchema = z.object({featuredProjectIds:z.array(stableId), featuredNoteIds:z.array(stableId), featuredResourceIds:z.array(stableId), showMetrics:z.boolean(), showLabPhoto:z.boolean()});
 export const schemas = {people:personSchema, publications:publicationSchema, projects:projectSchema, notes:noteSchema, resources:resourceSchema, pages:pageSchema};

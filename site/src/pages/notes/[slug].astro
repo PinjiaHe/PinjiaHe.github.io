@@ -5,7 +5,10 @@ import Layout from '../../layouts/Layout.astro';
 import {showDrafts} from '../../lib/data';
 export async function getStaticPaths(){return (await getCollection('notes',({data})=>data.visibility==='public'||showDrafts)).map(note=>({params:{slug:note.data.slug},props:{note}}));}
 interface Props{note:CollectionEntry<'notes'>;}
+import {localeFromPath, translator, localizeHref} from '../../lib/i18n';
+const locale = localeFromPath(Astro.url.pathname);
+const t = translator(locale);
 const {note} = Astro.props;
 const {Content} = await render(note);
 ---
-<Layout title={note.data.title} description={note.data.summary} lang={note.data.lang}><article class="container note-detail"><a class="back-link" href="/notes/">Notes & Resources</a>{note.data.visibility==='draft'&&<aside class="content-notice"><strong>Local draft · Test fixture</strong><p>排版测试，不是公开文章，不代表 Pinjia He 的观点。</p></aside>}<header class="page-hero"><p class="eyebrow">Article · {note.data.lang}</p><h1>{note.data.title}</h1><p>{note.data.summary}</p><p class="note-meta">{note.data.author} · {note.data.date}</p></header><div class="prose article-body"><Content/></div></article></Layout>
+<Layout title={note.data.title} description={note.data.summary} lang={note.data.lang}><article class="container note-detail" lang={locale === 'zh' ? note.data.lang : undefined}><a class="back-link" href={localizeHref('/notes/', locale)}>{t('Notes & Resources')}</a>{note.data.visibility==='draft'&&<aside class="content-notice"><strong>{t('Local draft · Test fixture')}</strong><p>排版测试，不是公开文章，不代表 Pinjia He 的观点。</p></aside>}<header class="page-hero"><p class="eyebrow">{t('Article')} · {note.data.lang}</p><h1>{note.data.title}</h1><p>{note.data.summary}</p><p class="note-meta">{note.data.author} · {note.data.date}</p></header><div class="prose article-body"><Content/></div></article></Layout>

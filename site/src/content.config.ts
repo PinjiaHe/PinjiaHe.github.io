@@ -3,6 +3,7 @@ import { glob } from 'astro/loaders';
 import { schemas } from './lib/schemas';
 const content = (name: string) => glob({base: `./src/content/${name}`, pattern: '**/*.{md,yaml}', generateId: ({entry}) => entry.replace(/\.(md|yaml)$/, '')});
 export const collections = {
+  translations: defineCollection({loader:content('translations'),schema:schemas.translations}),
   pages: defineCollection({loader:content('pages'),schema:schemas.pages}),
   people: defineCollection({loader:content('people'),schema:schemas.people}),
   publications: defineCollection({loader:content('publications'),schema:schemas.publications}),

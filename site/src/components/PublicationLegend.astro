@@ -1,1 +1,5 @@
-<p class="section-note publication-legend"><span class="supervised-author">Supervised student</span> · <span><sup>+</sup> Equal contribution</span></p>
+---
+import {localeFromPath, translator} from '../lib/i18n';
+const t = translator(localeFromPath(Astro.url.pathname));
+---
+<p class="section-note publication-legend"><span class="supervised-author">{t('Supervised student')}</span> · <span><sup>+</sup> {t('Equal contribution')}</span></p>

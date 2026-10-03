@@ -1,8 +1,10 @@
 ---
 import { site } from '../lib/data';
+import {localeFromPath, translator} from '../lib/i18n';
+const t = translator(localeFromPath(Astro.url.pathname));
 ---
 <footer class="site-footer">
   <div class="container">
-    <div class="footer-bottom"><p>© {new Date().getFullYear()} {site.name}</p><a href="#top">Back to top</a></div>
+    <div class="footer-bottom"><p>© {new Date().getFullYear()} {site.name}</p><a href="#top">{t('Back to top')}</a></div>
   </div>
 </footer>

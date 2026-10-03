@@ -5,7 +5,9 @@ import PublicationEntry from '../components/PublicationEntry.astro';
 import PublicationLegend from '../components/PublicationLegend.astro';
 import {site} from '../lib/data';
 import {sortPublications} from '../lib/publications';
+import {localeFromPath, translator} from '../lib/i18n';
+const t = translator(localeFromPath(Astro.url.pathname));
 const papers = sortPublications(await getCollection('publications',({data})=>data.visibility==='public'));
 const years = [...new Set(papers.map(p=>p.data.year))];
 ---
-<Layout title="Selected Publications" description="Recent and representative work in software engineering and AI."><div class="container"><header class="page-hero"><p class="eyebrow">Publications</p><h1>Selected Publications</h1><p>Recent and representative work in software engineering and AI.</p><div class="publication-links"><a href={site.links['Google Scholar']}>Google Scholar</a><a href={site.links.DBLP}>DBLP</a></div></header><aside class="content-notice" aria-label="Author notation"><PublicationLegend /></aside><div class="publication-list">{years.map(year=><section class="year-section"><h2>{year}</h2><div>{papers.filter(p=>p.data.year===year).map(publication=><PublicationEntry publication={publication}/>)}</div></section>)}</div></div></Layout>
+<Layout title={t('Selected Publications')} description={t('Recent and representative work in software engineering and AI.')}><div class="container"><header class="page-hero"><p class="eyebrow">{t('Publications')}</p><h1>{t('Selected Publications')}</h1><p>{t('Recent and representative work in software engineering and AI.')}</p><div class="publication-links"><a href={site.links['Google Scholar']}>Google Scholar</a><a href={site.links.DBLP}>DBLP</a></div></header><aside class="content-notice" aria-label={t('Author notation')}><PublicationLegend /></aside><div class="publication-list">{years.map(year=><section class="year-section"><h2>{year}</h2><div>{papers.filter(p=>p.data.year===year).map(publication=><PublicationEntry publication={publication}/>)}</div></section>)}</div></div></Layout>

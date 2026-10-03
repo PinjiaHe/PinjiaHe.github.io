@@ -4,24 +4,29 @@ import { getCollection } from 'astro:content';
 import ProjectFigure from './ProjectFigure.astro';
 import MetricBadge from './MetricBadge.astro';
 interface Props { project: CollectionEntry<'projects'>; index?: number; }
-const {project, index = 0} = Astro.props;
+import {localeFromPath, translator, localizeHref} from '../lib/i18n';
+import {localizedProject} from '../lib/translations';
+const locale = localeFromPath(Astro.url.pathname);
+const t = translator(locale);
+const {project: original, index = 0} = Astro.props;
+const {entry:project} = await localizedProject(original, locale);
 const allPublications = await getCollection('publications', ({data}) => data.visibility === 'public');
 const publications = project.data.publicationIds.map(id => allPublications.find(publication => publication.id === id)!);
 const projectUrl = project.data.links.website ?? project.data.links.paper ?? `/research/${project.data.slug}/`;
 const themes: Record<string,string> = {'ai-for-software-engineering':'AI for Software Engineering','software-engineering-for-ai':'Software Engineering for AI','software-reliability':'Software Reliability'};
 ---
 <article class="project-card">
-  <div class="project-meta"><span>0{index+1} / Research</span><span class="tag">{themes[project.data.themes[0]] ?? project.data.themes[0]}</span></div>
-  <h3><a href={`/research/${project.data.slug}/`}>{project.data.title}</a></h3>
+  <div class="project-meta"><span>0{index+1} / {t('Research')}</span><span class="tag">{t(themes[project.data.themes[0]] ?? project.data.themes[0])}</span></div>
+  <h3><a href={localizeHref(`/research/${project.data.slug}/`, locale)}>{project.data.title}</a></h3>
   <p>{project.data.summary}</p>
   {project.data.problem && <p class="project-question">{project.data.problem}</p>}
   <ProjectFigure project={project} />
-  <div class="project-publications" aria-label="Related publications">
+  <div class="project-publications" aria-label={t('Related publications')}>
     {publications.map((publication,index) => <div class="project-publication-row">
-      <a class="publication-venue" href={`/publications/#${publication.id}`} title={publication.data.title}>{publication.data.venue}{publication.data.track === 'SEIP' ? '-SEIP' : ''}{String(publication.data.year).slice(-2)}</a>
+      <a class="publication-venue" href={localizeHref(`/publications/#${publication.id}`, locale)} title={publication.data.title}>{publication.data.venue}{publication.data.track === 'SEIP' ? '-SEIP' : ''}{String(publication.data.year).slice(-2)}</a>
       {index === 0 && project.data.githubStars && <MetricBadge kind="github" {...project.data.githubStars} subject={project.data.title} />}
       {publication.data.citations && <MetricBadge kind="scholar" {...publication.data.citations} subject={publication.data.title} />}
     </div>)}
   </div>
-  <a class="text-link" href={projectUrl}>Explore this work</a>
+  <a class="text-link" href={localizeHref(projectUrl, locale)}>{t('Explore this work')}</a>
 </article>

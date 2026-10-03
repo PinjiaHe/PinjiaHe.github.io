@@ -1,13 +1,17 @@
 ---
-import {getEntry, render} from 'astro:content';
+import {render} from 'astro:content';
 import Layout from '../layouts/Layout.astro';
+import {localeFromPath, translator, localizeHref} from '../lib/i18n';
+import {localizedPage} from '../lib/translations';
 
-const page = (await getEntry('pages', 'join'))!;
-const {Content} = await render(page);
+const locale = localeFromPath(Astro.url.pathname);
+const t = translator(locale);
+const {entry:page,content:pageContent} = await localizedPage('join',locale);
+const {Content} = await render(pageContent);
 ---
 <Layout title={page.data.title} description={page.data.description}>
   <div class="container apply-page">
-    <a class="back-link" href="/lab/">Our Lab</a>
+    <a class="back-link" href={localizeHref('/lab/',locale)}>{t('Our Lab')}</a>
     <header class="apply-header">
       <h1>{page.data.title}</h1>
     </header>

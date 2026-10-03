@@ -1,9 +1,13 @@
 ---
-import {getCollection,getEntry} from 'astro:content';
+import {getCollection} from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import ResearchPillars from '../../components/ResearchPillars.astro';
 import ProjectCard from '../../components/ProjectCard.astro';
-const home = (await getEntry('pages','home'))!;
+import {localeFromPath, translator} from '../../lib/i18n';
+import {localizedPage} from '../../lib/translations';
+const locale = localeFromPath(Astro.url.pathname);
+const t = translator(locale);
+const {entry:home} = await localizedPage('home',locale);
 const projects = (await getCollection('projects',({data})=>data.visibility==='public')).sort((a,b)=>a.data.order-b.data.order);
 ---
-<Layout title="Research" description="Research at the intersection of software engineering and AI, with selected work on root cause analysis, AI safety, and coding-agent evaluation."><div class="container"><header class="page-hero"><p class="eyebrow">Research</p><h1>Software Engineering<br/><span class="accent">× AI</span></h1><p>{home.data.statement}</p></header><section class="research-overview"><h2 class="visually-hidden">Research Directions</h2><ResearchPillars pillars={home.data.pillars}/></section><section class="section"><div class="section-heading"><div><p class="eyebrow">A selection of our work</p><h2>Research Projects</h2></div></div><div class="project-grid">{projects.map((project,index)=><ProjectCard project={project} index={index}/>)}</div></section></div></Layout>
+<Layout title={t('Research')} description={t('Research at the intersection of software engineering and AI, with selected work on root cause analysis, AI safety, and coding-agent evaluation.')}><div class="container"><header class="page-hero"><p class="eyebrow">{t('Research')}</p><h1>{t('Software Engineering')}<br/><span class="accent">{t('× AI')}</span></h1><p>{home.data.statement}</p></header><section class="research-overview"><h2 class="visually-hidden">{t('Research Directions')}</h2><ResearchPillars pillars={home.data.pillars}/></section><section class="section"><div class="section-heading"><div><p class="eyebrow">{t('A selection of our work')}</p><h2>{t('Research Projects')}</h2></div></div><div class="project-grid">{projects.map((project,index)=><ProjectCard project={project} index={index}/>)}</div></section></div></Layout>

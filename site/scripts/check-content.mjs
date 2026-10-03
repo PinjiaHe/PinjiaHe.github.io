@@ -111,6 +111,27 @@ for (const id of ['home', 'lab', 'teaching', 'service', 'join']) {
   if (!page || page.data.visibility !== 'public') report(path.join(contentRoot, 'pages', `${id}.md`), 'visibility', 'Required page must exist and be explicitly public');
 }
 
+for (const record of collections.translations) {
+  const originals = [...collections.pages, ...collections.projects].filter(item => item.data.id === record.data.id);
+  if (originals.length !== 1 || originals[0].data.visibility !== 'public') {
+    report(record.file, 'id', 'A translation needs one matching public page or project');
+    continue;
+  }
+  const original = originals[0].data;
+  for (const key of Object.keys(record.data.text)) {
+    if (!(key in original)) report(record.file, `text.${key}`, 'Translated field does not exist on the original');
+  }
+  for (const field of ['pillars', 'evidence']) {
+    const translated = record.data.text[field];
+    if (translated && translated.length !== original[field]?.length) report(record.file, `text.${field}`, 'Translation must preserve the original item count and order');
+  }
+  const merged = {...original, ...record.data.text};
+  if (merged.coverLinkText && !merged.coverCaption?.includes(merged.coverLinkText)) report(record.file, 'text.coverCaption', 'Caption must contain its link text');
+}
+for (const original of [...collections.pages, ...collections.projects].filter(item => item.data.visibility === 'public')) {
+  if (!collections.translations.some(item => item.data.id === original.data.id)) report(original.file, 'id', 'Missing Chinese translation');
+}
+
 const site = await readRecord(path.join(root, 'src/data/site.yaml'), siteSchema);
 if (site) {
   checkUrls(site.file, site.data);

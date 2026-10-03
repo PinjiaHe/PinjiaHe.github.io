@@ -1,6 +1,8 @@
 ---
+import {localeFromPath, localizeHref} from '../lib/i18n';
+const locale = localeFromPath(Astro.url.pathname);
 import type { CollectionEntry } from 'astro:content';
 interface Props { pillars: CollectionEntry<'pages'>['data']['pillars']; linked?: boolean; }
 const {pillars, linked = false} = Astro.props;
 ---
-<div class="pillars">{pillars.map(pillar => <article class="pillar" id={linked ? undefined : pillar.id}><h3>{linked ? <a href={`/research/#${pillar.id}`}>{pillar.title}</a> : pillar.title}</h3><p>{pillar.description}</p></article>)}</div>
+<div class="pillars">{pillars.map(pillar => <article class="pillar" id={linked ? undefined : pillar.id}><h3>{linked ? <a href={localizeHref(`/research/#${pillar.id}`, locale)}>{pillar.title}</a> : pillar.title}</h3><p>{pillar.description}</p></article>)}</div>

@@ -1,22 +1,36 @@
 ---
 import { site } from '../lib/data';
-const nav = [{label:'Research',href:'/research/'},{label:'Lab',href:'/lab/'},{label:'Publications',href:'/publications/'},{label:'Notes',href:'/notes/'}];
-const current = (href: string) => Astro.url.pathname.startsWith(href);
+import {localeFromPath, translator, localizeHref, languageSwitchHref} from '../lib/i18n';
+const locale = localeFromPath(Astro.url.pathname);
+const t = translator(locale);
+const switchHref = languageSwitchHref(Astro.url.pathname);
+const nav = [{label:'Research',zhLabel:'科研',href:'/research/'},{label:'Lab',href:'/lab/'},{label:'Publications',href:'/publications/'},{label:'Notes',zhLabel:'推荐读物',href:'/notes/'}];
+const current = (href: string) => Astro.url.pathname.startsWith(localizeHref(href, locale));
 ---
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main">{t('Skip to content')}</a>
 <header class="site-header">
   <div class="container header-inner">
-    <a class="wordmark" href="/">{site.name}</a>
-    <nav class="desktop-nav" aria-label="Main navigation">
-      {nav.map(item => <a href={item.href} aria-current={current(item.href) ? 'page' : undefined}>{item.label}</a>)}
+    <a class="wordmark" href={localizeHref('/', locale)}>{t(site.name)}</a>
+    <nav class="desktop-nav" aria-label={t('Main navigation')}>
+      {nav.map(item => <a href={localizeHref(item.href, locale)} aria-current={current(item.href) ? 'page' : undefined}>{locale === 'zh' && item.zhLabel ? item.zhLabel : t(item.label)}</a>)}
+      <a data-language-switch href={switchHref} lang={locale === 'zh' ? 'en' : 'zh-CN'} hreflang={locale === 'zh' ? 'en' : 'zh-CN'}>{locale === 'zh' ? 'English' : '中文'}</a>
     </nav>
     <details class="mobile-menu">
-      <summary>Menu <span aria-hidden="true">＋</span></summary>
-      <nav aria-label="Mobile navigation">{nav.map(item => <a href={item.href} aria-current={current(item.href) ? 'page' : undefined}>{item.label}</a>)}</nav>
+      <summary>{t('Menu')} <span aria-hidden="true">＋</span></summary>
+      <nav aria-label={t('Mobile navigation')}>{nav.map(item => <a href={localizeHref(item.href, locale)} aria-current={current(item.href) ? 'page' : undefined}>{locale === 'zh' && item.zhLabel ? item.zhLabel : t(item.label)}</a>)}<a data-language-switch href={switchHref} lang={locale === 'zh' ? 'en' : 'zh-CN'} hreflang={locale === 'zh' ? 'en' : 'zh-CN'}>{locale === 'zh' ? 'English' : '中文'}</a></nav>
     </details>
   </div>
 </header>
 <script>
+  // A normal link also works without JavaScript. Preserve the current section when switching.
+  const syncLanguageLinks = () => document.querySelectorAll<HTMLAnchorElement>('[data-language-switch]').forEach(link => {
+    const target = new URL(link.href);
+    target.hash = window.location.hash;
+    target.search = window.location.search;
+    link.href = target.href;
+  });
+  syncLanguageLinks();
+  window.addEventListener('hashchange', syncLanguageLinks);
   document.querySelectorAll<HTMLDetailsElement>('.mobile-menu').forEach(menu => {
     menu.addEventListener('keydown', event => { if (event.key === 'Escape') { menu.open = false; menu.querySelector('summary')?.focus(); } });
   });

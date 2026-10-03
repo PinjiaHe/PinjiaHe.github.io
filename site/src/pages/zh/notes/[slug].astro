@@ -1,0 +1,7 @@
+---
+import type {CollectionEntry} from 'astro:content';
+interface Props {note:CollectionEntry<'notes'>;}
+import Page from '../../notes/[slug].astro';
+export {getStaticPaths} from '../../notes/[slug].astro';
+---
+<Page {...Astro.props} />

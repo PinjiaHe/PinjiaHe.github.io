@@ -1,7 +1,9 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 interface Props { project: CollectionEntry<'projects'>; }
+import {localeFromPath, translator} from '../lib/i18n';
+const t = translator(localeFromPath(Astro.url.pathname));
 const {data} = Astro.props.project;
 const linkIndex = data.coverLinkText ? data.coverCaption!.indexOf(data.coverLinkText) : -1;
 ---
-{data.cover && <figure class="project-figure"><a class="project-image-link" href={data.cover} aria-label={`View full image: ${data.title}`}><img src={data.cover} alt={data.coverAlt} loading="lazy" decoding="async" /></a><figcaption>{data.coverSourceUrl ? data.coverLinkText ? <>{data.coverCaption!.slice(0,linkIndex)}<a href={data.coverSourceUrl}>{data.coverLinkText}</a>{data.coverCaption!.slice(linkIndex+data.coverLinkText.length)}</> : <a href={data.coverSourceUrl}>{data.coverCaption}</a> : data.coverCaption}</figcaption></figure>}
+{data.cover && <figure class="project-figure"><a class="project-image-link" href={data.cover} aria-label={`${t('View full image:')} ${data.title}`}><img src={data.cover} alt={data.coverAlt} loading="lazy" decoding="async" /></a><figcaption>{data.coverSourceUrl ? data.coverLinkText ? <>{data.coverCaption!.slice(0,linkIndex)}<a href={data.coverSourceUrl}>{data.coverLinkText}</a>{data.coverCaption!.slice(linkIndex+data.coverLinkText.length)}</> : <a href={data.coverSourceUrl}>{data.coverCaption}</a> : data.coverCaption}</figcaption></figure>}

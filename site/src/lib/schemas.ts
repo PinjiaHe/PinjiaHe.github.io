@@ -57,6 +57,19 @@ export const pageSchema = z.object({
   pillars: z.array(z.object({id:stableId, title:text, description:text})).default([]),
   mission: text.optional(), joinTitle:text.optional(), joinText:text.optional(), contactText:text.optional(), labSummary:text.optional(), undergraduateNote:text.optional()
 });
+// Chinese prose overlays cannot replace the original facts, URLs, IDs or metrics.
+export const translationSchema = z.object({
+  id: stableId, visibility: z.literal('public'),
+  text: z.object({
+    title: text.optional(), description: text.optional(), eyebrow: text.optional(), positioning: text.optional(), statement: text.optional(),
+    researchButton: text.optional(), labButton: text.optional(), mission: text.optional(), joinTitle: text.optional(), joinText: text.optional(),
+    contactText: text.optional(), labSummary: text.optional(), undergraduateNote: text.optional(),
+    pillars: z.array(z.object({title:text, description:text}).strict()).optional(),
+    summary: text.optional(), problem: text.optional(), contribution: text.optional(),
+    coverAlt: text.optional(), coverCaption: text.optional(), coverLinkText: text.optional(),
+    evidence: z.array(z.object({label:text, text:text.optional(), scope:text.optional()}).strict()).optional()
+  }).strict()
+}).strict();
 export const siteSchema = z.object({name:text, personId:stableId, role:text, affiliation:text, distinction:text.optional(), secondaryRole:text, email:z.email(), defaultLanguage:text, photo:text, photoAlt:text, photoWidth:z.number(), photoHeight:z.number(), links, legacyLinks:links, contactText:text});
 export const homeSchema = z.object({featuredProjectIds:z.array(stableId), featuredNoteIds:z.array(stableId), featuredResourceIds:z.array(stableId), showMetrics:z.boolean(), showLabPhoto:z.boolean()});
-export const schemas = {people:personSchema, publications:publicationSchema, projects:projectSchema, notes:noteSchema, resources:resourceSchema, pages:pageSchema};
+export const schemas = {people:personSchema, publications:publicationSchema, projects:projectSchema, notes:noteSchema, resources:resourceSchema, pages:pageSchema, translations:translationSchema};

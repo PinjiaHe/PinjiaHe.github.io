@@ -59,10 +59,10 @@ try {
 
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto(base);
-  const navigationHrefs = await page.locator('.desktop-nav a').evaluateAll(links => links.map(link => link.getAttribute('href')));
+  const navigationHrefs = await page.locator('.desktop-nav a:not([data-language-switch])').evaluateAll(links => links.map(link => link.getAttribute('href')));
   assert.ok(navigationHrefs.length > 0, 'Desktop navigation contains links');
   for (const [index, href] of navigationHrefs.entries()) {
-    await page.locator('.desktop-nav a').nth(index).click();
+    await page.locator('.desktop-nav a:not([data-language-switch])').nth(index).click();
     assert.equal(new URL(page.url()).pathname, new URL(href, base).pathname, 'Desktop navigation opens its destination');
   }
 

@@ -1,5 +1,5 @@
 ---
-import {getCollection, getEntry, render} from 'astro:content';
+import {getCollection, render} from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import ResearchPillars from '../components/ResearchPillars.astro';
 import ProjectCard from '../components/ProjectCard.astro';
@@ -7,13 +7,17 @@ import ResourceEntry from '../components/ResourceEntry.astro';
 import AcademicIcon from '../components/AcademicIcon.astro';
 import LabPhotoCarousel from '../components/LabPhotoCarousel.astro';
 import {site,homepage} from '../lib/data';
-const home = (await getEntry('pages','home'))!;
-const lab = (await getEntry('pages','lab'))!;
-const {Content:Bio} = await render(home);
-const teaching = (await getEntry('pages','teaching'))!;
-const service = (await getEntry('pages','service'))!;
-const {Content:Teaching} = await render(teaching);
-const {Content:Service} = await render(service);
+import {localeFromPath, translator, localizeHref} from '../lib/i18n';
+import {localizedPage} from '../lib/translations';
+const locale = localeFromPath(Astro.url.pathname);
+const t = translator(locale);
+const {entry:home,content:homeContent} = await localizedPage('home',locale);
+const {entry:lab} = await localizedPage('lab',locale);
+const {Content:Bio} = await render(homeContent);
+const {entry:teaching,content:teachingContent} = await localizedPage('teaching',locale);
+const {entry:service,content:serviceContent} = await localizedPage('service',locale);
+const {Content:Teaching} = await render(teachingContent);
+const {Content:Service} = await render(serviceContent);
 const projects = await getCollection('projects',({data}) => data.visibility === 'public');
 const resources = await getCollection('resources',({data}) => data.visibility === 'public');
 const featuredProjects = homepage.featuredProjectIds.map(id => projects.find(p => p.id === id)!);
@@ -23,14 +27,14 @@ const featuredNotes = homepage.featuredNoteIds.map(id => notes.find(n => n.id ==
 ---
 <Layout title={home.data.title} description={home.data.description}>
   <section class="container hero">
-    <div class="hero-copy"><h1>{site.name}</h1><p class="hero-role">{site.role}<br/><span>{site.affiliation}</span>{site.distinction && <span class="hero-distinction">{site.distinction}</span>}</p><h2 class="positioning">{home.data.positioning}</h2><p class="hero-statement">{home.data.statement}</p><div class="hero-links"><a href={`mailto:${site.email}`} title={`${site.email} — Right-click to copy email address`}><AcademicIcon name="email" />Email</a><a href={site.links['Google Scholar']}><AcademicIcon name="scholar" />Google Scholar</a><a href={site.links.GitHub}><AcademicIcon name="github" />GitHub</a><a href={site.links.DBLP}><AcademicIcon name="dblp" />DBLP</a><a href={site.links.X}><AcademicIcon name="x" />X</a><a href={site.links.LinkedIn}><AcademicIcon name="linkedin" />LinkedIn</a></div></div>
-    <figure class="portrait"><img src={site.photo} alt={site.photoAlt} width={site.photoWidth} height={site.photoHeight} fetchpriority="high" /></figure>
+    <div class="hero-copy"><h1>{t(site.name)}</h1><p class="hero-role">{t(site.role)}<br/><span>{t(site.affiliation)}</span>{site.distinction && <span class="hero-distinction">{t(site.distinction)}</span>}</p><h2 class="positioning">{home.data.positioning}</h2><p class="hero-statement">{home.data.statement}</p><div class="hero-links"><a href={`mailto:${site.email}`} title={`${site.email} — ${t('Right-click to copy email address')}`}><AcademicIcon name="email" />Email</a><a href={site.links['Google Scholar']}><AcademicIcon name="scholar" />Google Scholar</a><a href={site.links.GitHub}><AcademicIcon name="github" />GitHub</a><a href={site.links.DBLP}><AcademicIcon name="dblp" />DBLP</a><a href={site.links.X}><AcademicIcon name="x" />X</a><a href={site.links.LinkedIn}><AcademicIcon name="linkedin" />LinkedIn</a></div></div>
+    <figure class="portrait"><img src={site.photo} alt={t(site.photoAlt)} width={site.photoWidth} height={site.photoHeight} fetchpriority="high" /></figure>
   </section>
-  <section class="container bio-section"><p class="eyebrow">About</p><div class="bio prose"><Bio /></div></section>
-  <section class="container section research-section"><div class="section-heading"><h2>Research Directions</h2><a class="text-link" href="/research/">Research overview</a></div><ResearchPillars pillars={home.data.pillars} linked /></section>
-  <section class="container section" id="selected-work"><div class="section-heading"><h2>Research Highlights</h2><a class="text-link" href="/publications/">Publications</a></div><div class="project-grid">{featuredProjects.map((project,index) => <ProjectCard project={project} index={index} />)}</div></section>
+  <section class="container bio-section"><p class="eyebrow">{t('About')}</p><div class="bio prose"><Bio /></div></section>
+  <section class="container section research-section"><div class="section-heading"><h2>{t('Research Directions')}</h2><a class="text-link" href={localizeHref('/research/',locale)}>{t('Research overview')}</a></div><ResearchPillars pillars={home.data.pillars} linked /></section>
+  <section class="container section" id="selected-work"><div class="section-heading"><h2>{t('Research Highlights')}</h2><a class="text-link" href={localizeHref('/publications/',locale)}>{t('Publications')}</a></div><div class="project-grid">{featuredProjects.map((project,index) => <ProjectCard project={project} index={index} />)}</div></section>
   <section class="container section academic-section" id="teaching" aria-labelledby="teaching-title"><h2 id="teaching-title">{teaching.data.title}</h2><div class="prose"><Teaching /></div></section>
   <section class="container section academic-section" id="service" aria-labelledby="service-title"><h2 id="service-title">{service.data.title}</h2><div class="prose"><Service /></div></section>
-  <section class="lab-band"><div class="container lab-feature"><div><h2>{lab.data.title}</h2><p class="lab-composition">{lab.data.mission}</p><div class="hero-buttons"><a class="button primary" href="/lab/#people">Meet the Team</a><a class="text-link" href="/lab/#join">Join Us</a></div></div>{homepage.showLabPhoto && <LabPhotoCarousel />}</div></section>
-  {(featuredResources.length > 0 || featuredNotes.length > 0) && <section class="container section notes-section"><div class="section-heading"><h2>Notes & Resources</h2><a class="text-link" href="/notes/">Browse all</a></div><div class="resource-grid">{featuredNotes.map(note => <article class="resource-entry"><p class="eyebrow">Article · {note.data.lang}</p><h3><a href={`/notes/${note.data.slug}/`}>{note.data.title}</a></h3><p>{note.data.author}</p></article>)}{featuredResources.map(resource => <ResourceEntry resource={resource}/>)}</div></section>}
+  <section class="lab-band"><div class="container lab-feature"><div><h2>{lab.data.title}</h2><p class="lab-composition">{lab.data.mission}</p><div class="hero-buttons"><a class="button primary" href={localizeHref('/lab/#people',locale)}>{t('Meet the Team')}</a><a class="text-link" href={localizeHref('/lab/#join',locale)}>{t('Join Us')}</a></div></div>{homepage.showLabPhoto && <LabPhotoCarousel />}</div></section>
+  {(featuredResources.length > 0 || featuredNotes.length > 0) && <section class="container section notes-section"><div class="section-heading"><h2>{t('Notes & Resources')}</h2><a class="text-link" href={localizeHref('/notes/',locale)}>{t('Browse all')}</a></div><div class="resource-grid">{featuredNotes.map(note => <article class="resource-entry"><p class="eyebrow">{t('Article')} · {note.data.lang}</p><h3><a href={localizeHref(`/notes/${note.data.slug}/`,locale)}>{note.data.title}</a></h3><p>{note.data.author}</p></article>)}{featuredResources.map(resource => <ResourceEntry resource={resource}/>)}</div></section>}
 </Layout>

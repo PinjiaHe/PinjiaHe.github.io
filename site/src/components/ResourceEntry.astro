@@ -1,8 +1,10 @@
 ---
-import {localeFromPath} from '../lib/locale';
-const chineseShell = localeFromPath(Astro.url.pathname) === 'zh';
+import {localeFromPath, translator} from '../lib/i18n';
+const locale = localeFromPath(Astro.url.pathname);
+const chineseShell = locale === 'zh';
+const t = translator(locale);
 import type {CollectionEntry} from 'astro:content';
 interface Props {resource:CollectionEntry<'resources'>;}
 const {data:r} = Astro.props.resource;
 ---
-<article lang={chineseShell ? r.lang : undefined} class="resource-entry"><p class="eyebrow">Recommended Reading <span>· {r.lang === 'en' ? 'EN' : '中文'}</span></p><h3><a href={r.url}>{r.title}</a></h3><p class="resource-author">{r.author}</p>{r.recommendation && <p>{r.recommendation}</p>}</article>
+<article lang={chineseShell ? r.lang : undefined} class="resource-entry"><p class="eyebrow">Recommended Reading <span>· {r.lang === 'en' ? 'EN' : '中文'}</span></p><h3><a href={r.url}>{r.title}</a></h3><p class="resource-author">{t(r.author)}</p>{r.recommendation && <p>{t(r.recommendation)}</p>}</article>

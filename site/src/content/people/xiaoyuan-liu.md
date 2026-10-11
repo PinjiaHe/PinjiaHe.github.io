@@ -31,8 +31,10 @@ publicationSummary:
   - label: EMNLP Findings26
     firstAuthor: false
 legacyFirstAuthorSummary: ACL25, NeurIPS25, ICLR26
+awards:
+  - NeurIPS26 Top Reviewer
 sources:
   - owner-provided
   - https://pinjiahe.github.io/team/
-sourceSnapshotDate: "2026-09-30"
+sourceSnapshotDate: "2026-10-11"
 ---
